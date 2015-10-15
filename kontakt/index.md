@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kontakt
+title: Kontakt - Smartwatch Übersicht
 ---
 
 ## Kontakt

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Infos zum Projekt
+title: Infos zum Projekt - Smartwatch Übersicht
 ---
 
 ## Infos zum Projekt
