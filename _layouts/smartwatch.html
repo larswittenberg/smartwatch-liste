@@ -1,0 +1,155 @@
+---
+layout: default
+---
+
+  <div class="container fixed-header-spacer">
+    <div class="cardpage">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="cardpage__title">{{ page.hersteller }} {{ page.name }}</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+          <div class="card__image-wrapper">
+{% if page.img_src_2x != '' %}
+            <img src="../img/{{ page.img_src_2x }}" srcset="../img/{{ page.img_src_2x }} 2x" alt="{{ page.hersteller }} {{ page.name }}" class="card__image" width="390">
+{% else %}
+            <img src="../img/dummy-820.jpg" alt="Platzhalter" class="card__image" width="390">
+{% endif %}
+            {% if page.img_src_2x != '' %}
+            <p class="card__image-desc">
+              Foto:
+              {% if page.img_author_name != '' %}
+                <a href="{{ page.img_src_url }}">{{ page.img_author_name }}</a>
+              {% else %}
+                <a href="{{ page.img_src_url }}">{{ page.img_src_name }}</a>
+              {% endif %}
+              {% if page.img_license_url != '' %}
+                / Lizenz <a href="{{ page.img_license_url }}">{{ page.img_license_name }}</a>
+              {% endif %}
+            </p>
+            {% endif %}
+          </div>
+          <div class="card__content">
+            {{ content }}
+          </div>
+        </div>
+        <div class="col-md-5">
+          <table class="table feature__table">
+            <tbody>
+              <tr>
+                <td class="feature__name" data-th="Markteinführung">Markteinführung</td>
+                {% if page.date %}
+                <td class="feature__data">{{ page.date | date: "%m / %Y" }}</td>
+                {% else %}
+                <td class="feature__data">unbekannt</td>
+                {% endif %}
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Betriebssystem">Betriebs&shy;system</td>
+                <td class="feature__data">{{ page.betriebssystem | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Display">Display</td>
+                <td class="feature__data">{{ page.display | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Auflösung">Auflösung</td>
+                <td class="feature__data">{{ page.aufloesung | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Akku">Akku</td>
+                <td class="feature__data">{{ page.akku | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Prozessor">Prozessor</td>
+                <td class="feature__data">{{ page.prozessor | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="RAM">RAM</td>
+                <td class="feature__data">{{ page.ram | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Interner Speicher">Interner Speicher</td>
+                <td class="feature__data">{{ page.interner_speicher | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="WLAN">WLAN</td>
+                <td class="feature__data">{{ page.wlan | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Bluetooth">Bluetooth</td>
+                <td class="feature__data">{{ page.bluetooth | newline_to_br }}</td>
+              </tr>
+              {% if page.konnektivitaet != '' %}
+              <tr>
+                <td class="feature__name" data-th="Konnektivität">Konnektivität</td>
+                <td class="feature__data">{{ page.konnektivitaet | newline_to_br }}</td>
+              </tr>
+              {% endif %}
+              <tr>
+                <td class="feature__name" data-th="Sensoren">Sensoren</td>
+                <td class="feature__data">{{ page.sensoren | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Gewicht">Gewicht</td>
+                <td class="feature__data">{{ page.gewicht | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Abmessungen">Abmessungen</td>
+                <td class="feature__data">{{ page.abmessungen | newline_to_br }}</td>
+              </tr>
+              {% if page.ip_zertifikat != '' %}
+              <tr>
+                <td class="feature__name" data-th="Wassergeschützt">Wasser&shy;geschützt</td>
+                <td class="feature__data">{{ page.ip_zertifikat | newline_to_br }}-zertifiziert</td>
+              </tr>
+              {% endif %}
+              {% if page.sonstiges != '' %}
+              <tr>
+                <td class="feature__name" data-th="Sonstiges">Sonstiges</td>
+                <td class="feature__data">{{ page.sonstiges | newline_to_br }}</td>
+              </tr>
+              {% endif %}
+              {% if page.link_url %}
+              <tr>
+                <td class="feature__name" data-th="Links">Link</td>
+                <td class="feature__data">
+                  <a href="{{ page.link_url }}" class="card__action-link" target="_blank">{{ page.link_name }}</a>
+                  {% if page.link_url_2 %}
+                    <br><a href="{{ page.link_url_2 }}" class="card__action-link" target="_blank">{{ page.link_name_2 }}</a>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endif %}
+              <tr>
+                <td class="feature__name" data-th="Preis">Preis (ab)</td>
+                <td class="feature__data">{{ page.preis | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__data text-center" colspan="2" >
+                {% if page.shop_link_name == 'amazon.de' %}
+                  <a href="{{ page.shop_link_url }}/?tag=smartwatchlis-21" class="btn btn-success" target="_blank">Auf amazon.de Kaufen <small>*</small></a>
+                  <br><br><small class="text-color--grey-2 text-small">* Affiliate-Link</small>
+                {% else %}
+                  <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf {{ page.shop_link_name }} Kaufen</a>
+                {% endif %}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+

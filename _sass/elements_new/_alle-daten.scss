@@ -1,0 +1,48 @@
+//*******************************************************************************
+// ALLE DATEN
+//*******************************************************************************
+
+.table-wrapper--overflow-x {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+
+.table--big {
+
+  //border: 1px solid #ccc;
+
+  .feature__name {
+    //min-width: 120px;
+  }
+
+  .feature__name--xxl {
+    min-width: 350px;
+  }
+
+  th,
+  td {
+    padding: 5px !important;
+  }
+
+  th {
+
+  }
+
+  td {
+    //border-right: 1px solid #ccc;
+    white-space: nowrap;
+  }
+
+  .white-space--wrap {
+     white-space: normal;
+  }
+
+  .w80  { width: 80px; }
+  .w90  { width: 90px; }
+  .w100 { width: 100px; }
+  .w110 { width: 110px; }
+  .w120 { width: 120px; }
+  .w130 { width: 130px; }
+  .w140 { width: 140px; }
+}

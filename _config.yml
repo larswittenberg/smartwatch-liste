@@ -1,0 +1,33 @@
+# Site settings
+title: Smartwatch Übersicht - smartwatch-liste.de
+email: info@smartwatch-liste.de
+description: smartwatch-liste.de versucht einen Überblick über die verschiedenen Modelle auf dem Smartwatch-Markt zu liefern.
+
+
+# baseurl: "/smartwatch-liste.de" # the subpath of your site, e.g. /blog/
+baseurl: "/smartwatch-liste" # the subpath of your site, e.g. /blog/
+# url: "http://localhost/jekylltest/_site/" # the base hostname & protocol for your site
+twitter_username: smartwatchliste
+github_username: larswittenberg
+timezone: Europe/Berlin
+
+
+
+# Build settings
+# baseurl: "" # the subpath of your site, e.g. /blog/
+markdown: kramdown
+# sass:
+#  style: :compressed
+
+
+defaults:
+  - scope:
+      path: ""
+      type: smartwatch
+    values:
+      layout: smartwatch
+
+collections:
+  smartwatch:
+    output: true
+    permalink: /:path/

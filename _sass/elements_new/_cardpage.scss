@@ -1,0 +1,63 @@
+//*******************************************************************************
+// CARDPAGE
+//*******************************************************************************
+
+.cardpage {
+  background-color: #fff;
+
+  @include breakpoint(sm) {
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include breakpoint(md) {
+    width: auto;
+  }
+}
+
+.cardpage__title {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 15px 15px 30px;
+  margin-bottom: 0;
+  color: #005EA5;
+  font-weight: 300;
+
+  @include breakpoint(sm) {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  @include breakpoint(md) {
+    font-size: 50px;
+    padding: 30px;
+  }
+}
+
+
+.cardpage .card__image-wrapper {
+  margin-bottom: 30px;
+}
+
+.cardpage .card__image-desc {
+  padding-left: 8px;
+
+  @include breakpoint(sm) {
+    padding-left: 23px;
+  }
+
+  @include breakpoint(md) {
+    padding-left: 30px;
+  }
+}
+
+
+.cardpage .card__content {
+  display: none;
+
+  @include breakpoint(md) {
+    margin: 30px;
+    display: block;
+  }
+}

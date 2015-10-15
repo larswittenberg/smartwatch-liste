@@ -1,0 +1,39 @@
+---
+title: Motorola Moto 360 2nd 42mm
+id: "motorola-moto-360-2nd-42mm"
+hersteller: "Motorola"
+name: "Moto 360 2<sup>nd</sup> (42mm)"
+date: 2015-09-01
+case_type: "rund"
+betriebssystem: "Android Wear<sup>TM</sup>"
+display: "1,37” LCD mit Hintergrundbeleuchtung"
+aufloesung: "360 x 325 Pixel, 263 ppi"
+akku: "300 mAh"
+prozessor: "1,2 GHz (Qualcomm Snapdragon<sup>TM</sup> 400)"
+ram: "512 MB"
+interner_speicher: "4 GB"
+wlan: "WLAN 802.11 b/g"
+bluetooth: "Bluetooth 4.0"
+konnektivitaet: ""
+sensoren: "Umgebungslichtsensor \n Optischer Pulsmesser (PPG) \n Beschleunigungsmesser \n Gyroskop, Vibrations-/Haptik-Engine"
+gewicht: "?"
+abmessungen: "42 mm Durchmesser, \n 11,4 mm Höhe"
+ip_zertifikat: "IP67"
+sonstiges: "Display mit Corning<sup>®</sup> Gorilla<sup>®</sup> Glass 3, Duale digitale Mikrofone"
+
+img_src: "dummy-410.jpg"
+img_src_2x: "motorola-moto-360-2nd-42mm-820.jpg"
+img_src_url: "http://motorola-blog.blogspot.de/2015/09/the-new-moto-360-collection-giving-you.html"
+img_src_name: "Motorola"
+img_author_name: ""
+img_author_url: ""
+img_license_name: ""
+img_license_url: ""
+
+link_name: "motorola.de"
+link_url: "https://www.motorola.de/products/moto-360"
+
+preis: "299,00 €"
+shop_link_name: "motorola.de"
+shop_link_url: "http://www.motorola.de/products/moto-360"
+---

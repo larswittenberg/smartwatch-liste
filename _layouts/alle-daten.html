@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+  <div class="container fixed-header-spacer">
+  {{ content }}
+  </div>
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="table-wrapper--overflow-x">
+            <table class="table table-striped table-bordered table-hover table--big">
+              <thead>
+                <tr>
+                  <th class="feature__name" data-th="count">#</th>
+                  <th class="feature__name w100" data-th="Hersteller">Hersteller</th>
+                  <th class="feature__name w100" data-th="Name">Name</th>
+                  <th class="feature__name w80" data-th="Markteinführung">Markt&shy;einführung</th>
+                  <th class="feature__name w120" data-th="Betriebssystem">Betriebs&shy;system</th>
+                  <th class="feature__name w90" data-th="Preis">Preis (ab)</th>
+                  <th class="feature__name w140" data-th="Display">Display</th>
+                  <th class="feature__name" data-th="Auflösung">Auflösung</th>
+                  <th class="feature__name" data-th="Akku">Akku</th>
+                  <th class="feature__name" data-th="Prozessor">Prozessor</th>
+                  <th class="feature__name" data-th="RAM">RAM</th>
+                  <th class="feature__name" data-th="Interner Speicher">Interner Speicher</th>
+                  <th class="feature__name" data-th="WLAN">WLAN</th>
+                  <th class="feature__name" data-th="Bluetooth">Bluetooth</th>
+                  <th class="feature__name" data-th="Konnektivität">Konnektivität</th>
+                  <th class="feature__name" data-th="Gewicht">Gewicht</th>
+                  <th class="feature__name w140" data-th="Abmessungen">Abmessungen</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              {% assign items = site.smartwatch | sort: "date" | reverse %}
+              {% for smartwatch in items %}
+                <tr>
+                  <td class="feature__data">{{ forloop.index }}</td>
+                  <td class="feature__data">{{ smartwatch.hersteller }}</td>
+                  <td class="feature__data"><a href="{{ site.baseurl }}/{{ smartwatch.id }}">{{ smartwatch.name }}</a></td>
+                  <td class="feature__data">{{ smartwatch.date | date: "%m / %Y" }}</td>
+                  <td class="feature__data">{{ smartwatch.betriebssystem | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.preis | newline_to_br }}</td>
+                  <td class="feature__data white-space--wrap">{{ smartwatch.display | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.aufloesung | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.akku | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.prozessor | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.ram | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.interner_speicher | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.wlan | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.bluetooth | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.konnektivitaet | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.gewicht | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.abmessungen | newline_to_br }}</td>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,67 @@
+---
+layout: default
+title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h1>Smartwatch Übersicht</h1>
+        <p class="lead">smartwatch-liste.de versucht einen Überblick über die <br>verschiedenen Modelle auf dem Smartwatch-Markt zu liefern.</p>
+        <p><small class="text-muted">Kein Anspruch auf Vollständigkeit. <br class="visible-xs-block"> Änderungen und Irrtümer vorbehalten.</small></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+        <div class="col-sm-6 col-md-4 smartwatch" id="{{ smartwatch.id }}">
+          <div class="card">
+            <div class="card__image-wrapper">
+              <a class="card__image-link" href="{{ smartwatch.id }}">
+                {% if smartwatch.img_src_2x != '' %}
+                <img src="img/{{ smartwatch.img_src_2x }}" srcset="img/{{ smartwatch.img_src_2x }} 2x" alt="{{ smartwatch.hersteller }} {{ smartwatch.name }}" class="card__image" width="390">
+                {% else %}
+                <img src="img/dummy-820.jpg" alt="Platzhalter" class="card__image" width="390">
+                {% endif %}
+              </a>
+              {% if smartwatch.img_src_2x != '' %}
+              <p class="card__image-desc">
+                Foto:
+                {% if smartwatch.img_author_name != '' %}
+                  <a href="{{ smartwatch.img_src_url }}">{{ smartwatch.img_author_name }}</a>
+                {% else %}
+                  <a href="{{ smartwatch.img_src_url }}">{{ smartwatch.img_src_name }}</a>
+                {% endif %}
+                {% if smartwatch.img_license_url != '' %}
+                  / Lizenz <a href="{{ smartwatch.img_license_url }}">{{ smartwatch.img_license_name }}</a>
+                {% endif %}
+              </p>
+              {% endif %}
+            </div>
+
+            <h2 class="card__headline">
+              <a href="{{ smartwatch.id }}">{{ smartwatch.hersteller }} {{ smartwatch.name }}</a>
+            </h2>
+            <table class="card__minitable">
+              <tbody>
+                <tr>
+                  <td class="feature__name" data-th="Markteinführung">Markteinführung</td>
+                  {% if smartwatch.date %}
+                  <td class="feature__data">{{ smartwatch.date | date: "%m / %Y" }}</td>
+                  {% else %}
+                  <td class="feature__data">unbekannt</td>
+                  {% endif %}
+                </tr>
+                <tr>
+                  <td class="feature__name" data-th="Preis">Preis (ab)</td>
+                  <td class="feature__data">{{ smartwatch.preis | newline_to_br }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+{% endfor %}
+      </div>
+    </div>
+

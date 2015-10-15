@@ -1,0 +1,74 @@
+//*******************************************************************************
+// VARIABLES
+//*******************************************************************************
+
+//
+// Settings
+//
+$flexgrid: true;
+$flexgrid: false;
+$showGridDisplayer: true;
+$showGridDisplayer: false;
+
+
+
+//
+// Media Queries Debugging
+//
+$media-queries-debugging: on;
+$media-queries-debugging: off;
+
+
+
+//
+// Breakpoints
+//
+$breakpoint-sm:  760px;
+$breakpoint-md: 1000px;
+$breakpoint-lg: 1240px;
+$breakpoint-xl: 1480px;
+
+
+
+//
+// Colors
+//
+$text-color: #0B0C0C;
+$link-color: #005EA5;
+
+$black:  #0B0C0C;
+$grey-0: #1b1b1b;
+$grey-1: #6F777B;
+$grey-2: #BFC1C3;
+$white:  #ffffff;
+
+$page-background: #FAFAFA;
+$header-background: #009688;
+$footer-background: #4B4B4B;
+
+$button: $header-background;
+
+
+//
+// Grid Values
+//
+$grid-gutter-width: 40px;
+
+
+//
+// Columns
+//
+$column--sm: 20px;
+$column--md: 40px;
+$column--lg: 60px;
+$column--xl: 80px;
+
+
+
+//
+// Offsets
+//
+$offset--sm: $column--sm + $grid-gutter-width;
+$offset--md: $column--md + $grid-gutter-width;
+$offset--lg: $column--lg + $grid-gutter-width;
+$offset--xl: $column--xl + $grid-gutter-width;

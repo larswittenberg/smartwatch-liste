@@ -1,0 +1,158 @@
+//*******************************************************************************
+// CARD
+//*******************************************************************************
+
+.cards__wrapper {
+
+  @include breakpoint(sm) {
+    overflow: hidden;
+  }
+
+  @include breakpoint(md) {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include breakpoint(lg) {
+    width: 100%;
+  }
+}
+
+
+
+.card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 410px;
+  background-color: #FFF;
+
+  @include breakpoint(sm) {
+    width: 47%;
+    float: left;
+    margin-bottom: 6%;
+
+    &.odd {
+      margin-left: 5px;
+      clear: both;
+    }
+
+    &.even {
+      margin-right: 5px;
+      float: right;
+    }
+  }
+
+  @include breakpoint(md) {
+    &.odd {
+      margin-left: 10px;
+      margin-right: 40px;
+    }
+
+    &.even {
+      margin-left: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  @include breakpoint(lg) {
+    width: 30%;
+    max-width: 410px;
+    margin-bottom: 3.32%;
+
+    &.odd {
+      clear: none;
+    }
+
+    &.even {
+      float: left;
+    }
+
+    &.odd,
+    &.even {
+      margin-left: 1.66%;
+      margin-right: 1.66%;
+    }
+
+    &:nth-child(3n+1){
+      clear: both;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &.odd,
+    &.even {
+      margin-left: 28px;
+      margin-right: 28px;
+      margin-bottom: 56px;
+    }
+  }
+}
+
+
+.card:target {
+  border: 2px solid $button;
+}
+
+
+.card__image-wrapper{
+  position: relative;
+}
+.card__image {}
+.card__image-desc {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 3px;
+  font-size: 11px;
+  color: $grey-0;
+  background-color: rgba(255,255,255,.5);
+}
+
+
+.card__content {
+  padding: 15px;
+}
+
+
+.card__title {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 15px;
+
+  @include breakpoint(sm) {
+    font-size: 30px;
+  }
+}
+
+
+.card__action {
+  //border-top: 1px solid rgba(160, 160, 160, 0.2);
+  //padding: 15px;
+}
+
+
+.card__action-button {
+  color: #000;
+  background-color: $button;
+  margin-right: 20px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+  //text-transform: uppercase;
+  padding: 6px 12px;
+  margin-right: 0;
+
+  &:hover {
+    //color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+}

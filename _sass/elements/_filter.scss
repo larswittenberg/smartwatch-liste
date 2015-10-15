@@ -1,0 +1,74 @@
+//*******************************************************************************
+// FILTER
+//*******************************************************************************
+
+.filter {
+  display: none;
+}
+
+
+
+//
+// Filter Liste
+//
+.filter__list {}
+.filter__listitem {}
+
+
+
+.filter__label {
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.filter__checkbox {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,.54);
+  border-radius: 2px;
+
+  &:checked {
+    background-color: red;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.filter__checkbox-name {
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-left: 25px;
+}
+
+
+
+
+//
+// Smartwatch Icon
+//
+.filter__listitem-icon {}
+
+.filter__listitem-icon--eckig {}
+
+.filter__listitem-icon--rund {}
+

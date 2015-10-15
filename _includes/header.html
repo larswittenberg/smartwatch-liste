@@ -1,0 +1,30 @@
+
+    <nav class="navbar header">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="menu-btn pushy-button">&#9776;</a>
+          <a class="navbar-brand header__title" href="{{ site.baseurl }}/">smartwatch-liste.de</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{{ site.baseurl }}/alle-smartwatch-daten">Alle Smartwatch Daten</a></li>
+            <li><a href="{{ site.baseurl }}/infos-zum-projekt">Infos zum Projekt</a></li>
+            <li><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="pushy pushy-left menu">
+      <ul class="menu__list">
+        <li class="menu__listitem visible-xs-block"><a href="{{ site.baseurl }}/alle-smartwatch-daten">Alle Smartwatch Daten</a></li>
+        <li class="menu__listitem visible-xs-block"><a href="{{ site.baseurl }}/infos-zum-projekt">Infos zum Projekt</a></li>
+        <li class="menu__listitem visible-xs-block"><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
+        <li class="visible-xs-block"><hr></li>
+        {% for smartwatch in site.smartwatch %}
+        <li class="menu__listitem"><a href="{{ site.baseurl }}/{{ smartwatch.id }}">{{ smartwatch.hersteller }} {{ smartwatch.name }}</a></li>{% endfor %}
+      </ul>
+    </nav>
+
+    <div class="site-overlay"></div>
+    <div id="container"></div>
