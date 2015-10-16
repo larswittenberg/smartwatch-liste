@@ -205,6 +205,9 @@ sup {
 .text-color--grey-2 {
   color: #BFC1C3; }
 
+.m-b-20 {
+  margin-bottom: 20px; }
+
 .hyphen {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
