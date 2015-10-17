@@ -20,9 +20,9 @@ title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
             <div class="card__image-wrapper">
               <a class="card__image-link" href="{{ smartwatch.id }}">
                 {% if smartwatch.img_src_2x != '' %}
-                <img src="img/{{ smartwatch.img_src_2x }}" srcset="img/{{ smartwatch.img_src_2x }} 2x" alt="{{ smartwatch.hersteller }} {{ smartwatch.name }}" class="card__image" width="390">
+                <img src="img/1.gif" data-src="img/{{ smartwatch.img_src_2x }}" alt="{{ smartwatch.hersteller }} {{ smartwatch.name }}" class="card__image lazyload" width="390">
                 {% else %}
-                <img src="img/dummy-820.jpg" alt="Platzhalter" class="card__image" width="390">
+                <img src="img/dummy-820.jpg" alt="Platzhalter" class="card__image lazyload" width="390">
                 {% endif %}
               </a>
               {% if smartwatch.img_src_2x != '' %}
