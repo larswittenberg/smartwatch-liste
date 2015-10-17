@@ -57,6 +57,12 @@
 
 
 .nav.navbar-nav {
+  display: none;
+
+  @include breakpoint(sm) {
+    display: block;
+  }
+
   a {
     color: #fff;
 
@@ -100,6 +106,10 @@
     &:hover {
       background-color: $header-background;
     }
+  }
+
+  .menu__listitem--visible-xs a {
+    color: red;
   }
 }
 
