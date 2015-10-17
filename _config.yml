@@ -11,8 +11,8 @@ timezone: Europe/Berlin
 
 
 markdown: kramdown
-# sass:
-#  style: :compressed
+sass:
+  style: :compressed
 
 
 defaults:
