@@ -22,6 +22,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 .text-center--xs {
   text-align: center;
 
@@ -30,17 +32,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 .text-center--sm {
   @include breakpoint(sm) {
     text-align: center;
   }
 }
 
+
+
 .text-right--md {
   @include breakpoint(md) {
     text-align: right;
   }
 }
+
+
 
 sup {
   font-size: 60%;
