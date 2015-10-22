@@ -1,15 +1,15 @@
 ---
-title: Fossil Q - Technische Daten
-id: "fossil-q"
+title: Fossil Q Founder - Technische Daten
+id: "fossil-q-founder"
 hersteller: "Fossil"
-name: "Q"
+name: "Q Founder"
 date: 
 case_type: "rund"
 betriebssystem: "Android Wear<sup>TM</sup>"
 display: ""
 aufloesung: ""
 akku: ""
-prozessor: ""
+prozessor: "Intel"
 ram: ""
 interner_speicher: ""
 wlan: ""
@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: ""
 link_url: ""
 
-preis: ""
+preis: "275 US $"
 shop_link_name: ""
 shop_link_url: ""
 ---
@@ -41,3 +41,4 @@ shop_link_url: ""
 ### Links
 * [Fossil Q: Neue Wearables, unter anderem auch mit Android Wear, gezeigt](http://www.mobiflip.de/fossil-q-neue-wearables-android/)
 * [engadget.com](http://www.engadget.com/2015/08/18/fossil-intel-connected-accessories/)
+* [Fossil Q Founder: Android Wear Smartwatch offiziell vorgestellt](http://www.mobilegeeks.de/artikel/fossil-q-founder/)
