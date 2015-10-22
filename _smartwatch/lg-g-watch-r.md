@@ -1,5 +1,5 @@
 ---
-title: LG G Watch R
+title: LG G Watch R - Technische Daten
 id: "lg-g-watch-r"
 hersteller: "LG"
 name: "G Watch R"

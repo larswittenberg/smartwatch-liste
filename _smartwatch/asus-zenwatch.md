@@ -1,5 +1,5 @@
 ---
-title: Asus ZenWatch
+title: Asus ZenWatch - Technische Daten
 id: "asus-zenwatch"
 hersteller: "Asus"
 name: "ZenWatch"

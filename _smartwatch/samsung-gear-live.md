@@ -1,5 +1,5 @@
 ---
-title: Samsung Gear Live
+title: Samsung Gear Live - Technische Daten
 id: "samsung-gear-live"
 hersteller: "Samsung"
 name: "Gear Live"

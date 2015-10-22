@@ -1,5 +1,5 @@
 ---
-title: Pebble Time Steel
+title: Pebble Time Steel - Technische Daten
 id: "pebble-time-steel"
 hersteller: "Pebble"
 name: "Time Steel"

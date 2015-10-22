@@ -1,5 +1,5 @@
 ---
-title: LG Watch Urbane 2nd Edition
+title: LG Watch Urbane 2nd Edition - Technische Daten
 id: "lg-watch-urbane-2nd-edition"
 hersteller: "LG"
 name: "Watch Urbane 2<sup>nd</sup> Edition"

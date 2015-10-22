@@ -1,5 +1,5 @@
 ---
-title: Apple Watch Edition
+title: Apple Watch Edition - Technische Daten
 id: "apple-watch-edition"
 hersteller: "Apple"
 name: "Watch Edition"

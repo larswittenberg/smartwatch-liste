@@ -1,5 +1,5 @@
 ---
-title: Apple Watch
+title: Apple Watch - Technische Daten
 id: "apple-watch"
 hersteller: "Apple"
 name: "Watch"

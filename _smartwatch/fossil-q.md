@@ -1,5 +1,5 @@
 ---
-title: Fossil Q
+title: Fossil Q - Technische Daten
 id: "fossil-q"
 hersteller: "Fossil"
 name: "Q"

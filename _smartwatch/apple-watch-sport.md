@@ -1,5 +1,5 @@
 ---
-title: Apple Watch Sport
+title: Apple Watch Sport - Technische Daten
 id: "apple-watch-sport"
 hersteller: "Apple"
 name: "Watch Sport"

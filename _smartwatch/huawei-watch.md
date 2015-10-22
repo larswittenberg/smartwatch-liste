@@ -1,5 +1,5 @@
 ---
-title: Huawei Watch
+title: Huawei Watch - Technische Daten
 id: "huawei-watch"
 hersteller: "Huawei"
 name: "Watch"

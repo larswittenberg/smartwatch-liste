@@ -1,5 +1,5 @@
 ---
-title: Motorola Moto 360 Sport
+title: Motorola Moto 360 Sport - Technische Daten
 id: "motorola-moto-360-sport"
 hersteller: "Motorola"
 name: "Moto 360 Sport"

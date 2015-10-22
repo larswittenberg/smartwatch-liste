@@ -1,5 +1,5 @@
 ---
-title: Pebble Time Round
+title: Pebble Time Round - Technische Daten
 id: "pebble-time-round"
 hersteller: "Pebble"
 name: "Time Round"

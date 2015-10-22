@@ -1,5 +1,5 @@
 ---
-title: TAG Heuer Connected
+title: TAG Heuer Connected - Technische Daten
 id: "tag-heuer-connected"
 hersteller: "TAG Heuer Connected"
 name: ""

@@ -1,5 +1,5 @@
 ---
-title: Sony SmartWatch 2
+title: Sony SmartWatch 2 - Technische Daten
 id: "sony-smartwatch-2"
 hersteller: "Sony"
 name: "SmartWatch 2"

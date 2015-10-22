@@ -1,5 +1,5 @@
 ---
-title: Asus ZenWatch 2 (WI502Q)
+title: Asus ZenWatch 2 (WI502Q) - Technische Daten
 id: "asus-zenwatch-2-wi502q"
 hersteller: "Asus"
 name: "ZenWatch 2 (WI502Q)"
