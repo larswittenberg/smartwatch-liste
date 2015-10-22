@@ -61,7 +61,9 @@
 
 .card__image {
   width: 100%;
-  min-width: 100%;
+  min-width: 290px;
+  min-height: 218px;
+  background-color: #efefef;
 
   .card & {
     width: 100%;
