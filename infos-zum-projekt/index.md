@@ -15,7 +15,8 @@ Du hast einen Fehler entdeckt? \\
 Du kennst technische Daten die noch fehlen? \\
 Du kennst noch eine Smartwatch die ich aufnehmen muss?
 
-Schreib einfach eine E-Mail an info(ät)smartwatch-liste.de oder per twitter [@smartwatchliste](https://twitter.com/smartwatchliste)
+Schreib einfach eine E-Mail an info(ät)smartwatch-liste.de oder
+per twitter [@smartwatchliste](https://twitter.com/smartwatchliste)
 
 Ich freue mich über Hinweise, Tipps und Anregungen.
 
