@@ -12,10 +12,10 @@ title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row smartwatch-list">
 {% assign items = site.smartwatch | sort: "date" | reverse %}
 {% for smartwatch in items %}
-        <div class="col-sm-6 col-md-4 smartwatch" id="{{ smartwatch.id }}">
+        <div class="col-sm-6 col-md-4 smartwatch" id="{{ smartwatch.id }}" data-hersteller="{{ smartwatch.hersteller }}" data-betriebssystem="{{ smartwatch.betriebssystem }}">
           <div class="card">
             <div class="card__image-wrapper">
               <a class="card__image-link" href="{{ smartwatch.id }}">
