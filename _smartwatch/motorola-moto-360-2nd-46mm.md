@@ -37,3 +37,7 @@ preis: "349,00 €"
 shop_link_name: "motorola.de"
 shop_link_url: "http://www.motorola.de/products/moto-360"
 ---
+
+### Links
+* [stadt-bremerhaven.de - Moto 360 (2015) ausprobiert: Sie nannten ihn Plattfuß](http://stadt-bremerhaven.de/moto-360-2015-ausprobiert-sie-nannten-ihn-plattfuss/)
+* [mobilegeeks.de - Motorola Moto 360 2 (2015) Test: Selbst gestaltete Smartwatch](http://www.mobilegeeks.de/test/motorola-moto-360/)

@@ -42,6 +42,7 @@ shop_link_url: "http://www.amazon.de/Huawei-Watch-Classic-Lederband-silber/dp/B0
 ### Links
 * [huawei.com/de](http://consumer.huawei.com/de/press/news/hw-441153.htm)
 * [fashiontouchestechnology.com/watch](http://www.fashiontouchestechnology.com/watch)
-* [mobilegeeks.de - Huawei Watch: Unboxing und erste Eindrücke](http://www.mobilegeeks.de/test/huawei-watch/)
-* [Huawei Watch im Test: Eine Smartwatch zwischen teuer und unverschämt](https://www.androidpit.de/huawei-watch-test)
+* [mobilegeeks.de - Huawei Watch Test: Edle Android Wear Smartwatch](http://www.mobilegeeks.de/test/huawei-watch/)
 * [heise.de - IFA 2015: Smartwatch Huawei Watch im Hands-On](http://www.heise.de/newsticker/meldung/IFA-2015-Smartwatch-Huawei-Watch-im-Hands-On-2806224.html#mobile_detect_force_desktop)
+* [stadt-bremerhaven.de - Huawei Watch Testbericht: Das Schmuckstück unter den Android Wear-Smartwatches](http://stadt-bremerhaven.de/huawei-watch-testbericht-das-schmuckstueck-unter-den-android-wear-smartwatches/)
+* [androidpit.de - Huawei Watch im Test: Luxuriöse Smartwatch mit Macken](https://www.androidpit.de/huawei-watch-test)
