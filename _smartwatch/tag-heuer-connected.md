@@ -1,25 +1,25 @@
 ---
 title: TAG Heuer Connected - Technische Daten
 id: "tag-heuer-connected"
-hersteller: "TAG Heuer Connected"
-name: ""
-date: 
+hersteller: "TAG Heuer"
+name: "Connected"
+date: 2015-11-09
 case_type: "rund"
-betriebssystem: ""
-display: ""
-aufloesung: ""
-akku: ""
-prozessor: ""
-ram: ""
-interner_speicher: ""
-wlan: ""
-bluetooth: ""
+betriebssystem: "Android Wear<sup>TM</sup>"
+display: "1,5 Zoll LPTS LCD"
+aufloesung: "360 x 360 Pixel, 240 ppi"
+akku: "410 mAh"
+prozessor: "1,6 GHz Dual-Core Intel Atom Z34XX"
+ram: "1 GB"
+interner_speicher: "4 GB"
+wlan: "WLAN 802.11 b/g/n"
+bluetooth: "Bluetooth 4.1 LE"
 konnektivitaet: ""
-sensoren: ""
-gewicht: ""
-abmessungen: ""
-ip_zertifikat: ""
-sonstiges: ""
+sensoren: "Gyroskop, Haptik-Engine, Kipperkennung"
+gewicht: "52 g"
+abmessungen: "46 mm Durchmesser, \n 12,8 mm Höhe"
+ip_zertifikat: "IP67"
+sonstiges: "Display mit Saphir-Kristall Glas, Mikrofon"
 
 img_src: ""
 img_src_2x: ""
@@ -33,12 +33,10 @@ img_license_url: ""
 link_name: "tagheuerconnected.com"
 link_url: "http://www.tagheuerconnected.com/"
 
-preis: "1800 US $"
-shop_link_name: ""
-shop_link_url: ""
+preis: "1350 €"
+shop_link_name: "tagheuerconnected.com"
+shop_link_url: "http://www.tagheuerconnected.com/product"
 ---
 
 ### Links
-* [TAG Heuer veröffentlicht im November die teuerste Android-Smartwatch](https://curved.de/news/tag-heuer-veroeffentlicht-im-november-die-teuerste-android-smartwatch-306555)
-
-Offizielle Vorstellung: 09.11.2015
+* [Tag Heuer Connected: Luxus Android Wear Smartwatch mit Ablaufdatum](http://stadt-bremerhaven.de/tag-heuer-connected-luxus-android-wear-smartwatch-mit-ablaufdatum/)
