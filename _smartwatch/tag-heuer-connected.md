@@ -22,9 +22,9 @@ ip_zertifikat: "IP67"
 sonstiges: "Display mit Saphir-Kristall Glas, Mikrofon"
 
 img_src: ""
-img_src_2x: ""
-img_src_url: ""
-img_src_name: ""
+img_src_2x: "tag-heuer-connected-820.jpg"
+img_src_url: "http://presscorner.tagheuer.com/"
+img_src_name: "TAG Heuer"
 img_author_name: ""
 img_author_url: ""
 img_license_name: ""
@@ -33,10 +33,11 @@ img_license_url: ""
 link_name: "tagheuerconnected.com"
 link_url: "http://www.tagheuerconnected.com/"
 
-preis: "1350 €"
+preis: "1350,00 €"
 shop_link_name: "tagheuerconnected.com"
 shop_link_url: "http://www.tagheuerconnected.com/product"
 ---
 
 ### Links
 * [Tag Heuer Connected: Luxus Android Wear Smartwatch mit Ablaufdatum](http://stadt-bremerhaven.de/tag-heuer-connected-luxus-android-wear-smartwatch-mit-ablaufdatum/)
+* [The TAG Heuer Connected launch in New York City](https://www.youtube.com/watch?v=48VsBxSPSAI)
