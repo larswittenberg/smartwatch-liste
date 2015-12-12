@@ -21,6 +21,11 @@ abmessungen: ""
 ip_zertifikat: ""
 sonstiges: ""
 
+kompatibilitaet_android: ""
+kompatibilitaet_android-version: ""
+kompatibilitaet_ios: ""
+kompatibilitaet_ios-version: ""
+
 img_src: ""
 img_src_2x: ""
 img_src_url: ""

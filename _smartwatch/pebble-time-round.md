@@ -21,6 +21,11 @@ abmessungen: "38,5 mm Durchmesser, 7,5 mm Höhe"
 ip_zertifikat: "IPX7 (Spritzwasser geschützt)"
 sonstiges: "Mikrofon, Vibrationsmotor, 4 Tasten, Display ist nicht Touch-fähig, Aluminium Gehäuse, Variante mit 22 mm oder 14 mm Armband, in den Farben schwarz, silber, rosegold verfügbar, 15 Minuten Schnell-Ladefunktion reichen für einen Tag,  in Deutschland erst ab 2016 erhältlich"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "pebble-time-round-820.jpg"
 img_src_url: "https://getpebble.com/"

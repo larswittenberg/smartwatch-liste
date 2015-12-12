@@ -21,6 +21,11 @@ abmessungen: "39,9 × 43,6 × 11,4 mm"
 ip_zertifikat: "IP68"
 sonstiges: "2 Tasten, drehbare Lünette, auch mit 3G via embedded SIM erhältich (nicht in Deutschland)"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.4+"
+kompatibilitaet_ios: "-"
+kompatibilitaet_ios-version: "-"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "samsung-gear-s2-classic-820.jpg"
 img_src_url: "http://www.samsungmobilepress.com/2015/08/31/Galaxy-Gear-S2-Image"
@@ -49,3 +54,4 @@ Laut [manager-magazin.de](http://www.manager-magazin.de/lifestyle/hardware/samsu
 * [mobilegeeks.de - Samsung Gear S2 Test – Hands On und erste Eindruecke von der Tizen Smartwach](http://www.mobilegeeks.de/test/samsung-gear-s2-test-hands-on-und-erste-eindruecke-von-der-tizen-smartwach/)
 * [youtube.com - Preview - Samsung Gear S2](https://www.youtube.com/watch?v=nWG5GGpXCmc)
 * [stadt-bremerhaven.de - Samsung Gear S2 und Gear S2 Classic ausprobiert: So muss eine Smartwatch sein!](http://stadt-bremerhaven.de/samsung-gear-s2-und-gear-s2-classic-ausprobiert-so-muss-eine-smartwatch-sein/)
+* [Samsung Gear S2 wohl bald zu Apple iOS kompatibel](http://stadt-bremerhaven.de/samsung-gear-s2-wohl-bald-zu-apple-ios-kompatibel/)

@@ -21,6 +21,11 @@ abmessungen: "46 mm Durchmesser, \n 12,8 mm Höhe"
 ip_zertifikat: "IP67"
 sonstiges: "Display mit Saphir-Kristall Glas, Mikrofon"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: "tag-heuer-connected-820.jpg"
 img_src_url: "http://presscorner.tagheuer.com/"

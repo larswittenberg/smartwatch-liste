@@ -21,6 +21,11 @@ abmessungen: "46 mm Durchmesser, 13 mm Höhe"
 ip_zertifikat: "IP67"
 sonstiges: "Mikrofon"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.4+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: "fossil-q-founder-820.jpg"
 img_src_url: "https://www.fossil.com/de/de/search/fossil-q-founder-edelstahl-sku-ftw20002p.html"
