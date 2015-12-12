@@ -52,6 +52,16 @@ layout: default
                 <td class="feature__name" data-th="Betriebssystem">Betriebs&shy;system</td>
                 <td class="feature__data">{{ page.betriebssystem | newline_to_br }}</td>
               </tr>
+              {% if page.kompatibilitaet_android or page.kompatibilitaet_ios %}
+              <tr>
+                <td class="feature__name" data-th="Kompatibilität">Kompatibilität</td>
+                <td class="feature__data">
+                  {% if page.kompatibilitaet_android == "ja" %}Android {{ page.kompatibilitaet_android-version }} {% endif %}
+                  {% if page.kompatibilitaet_android == "ja" and page.kompatibilitaet_ios == "ja" %} / {% endif %}
+                  {% if page.kompatibilitaet_ios == "ja" %}iOS {{ page.kompatibilitaet_ios-version }} {% endif %}
+                </td>
+              </tr>
+              {% endif %}
               <tr>
                 <td class="feature__name" data-th="Display">Display</td>
                 <td class="feature__data">{{ page.display | newline_to_br }}</td>
@@ -130,13 +140,15 @@ layout: default
                 <td class="feature__data">{{ page.preis | newline_to_br }}</td>
               </tr>
               <tr>
-                <td class="feature__data text-center" colspan="2" >
-                {% if page.shop_link_name == 'amazon.de' %}
-                  <a href="{{ page.shop_link_url }}/?tag=smartwatchlis-21" class="btn btn-success" target="_blank">Auf amazon.de Kaufen <small>*</small></a>
-                  <br><br><small class="text-color--grey-2 text-small">* Affiliate-Link</small>
-                {% else %}
-                  <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf {{ page.shop_link_name }} Kaufen</a>
-                {% endif %}
+                <td class="feature__data text-center" colspan="2">
+                  {% if page.shop_link_name != '' %}
+                    {% if page.shop_link_name == 'amazon.de' %}
+                      <a href="{{ page.shop_link_url }}/?tag=smartwatchlis-21" class="btn btn-success" target="_blank">Auf amazon.de Kaufen <small>*</small></a>
+                      <br><br><small class="text-color--grey-2 text-small">* Affiliate-Link</small>
+                    {% else %}
+                      <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf {{ page.shop_link_name }} Kaufen</a>
+                    {% endif %}
+                  {% endif %}
                 </td>
               </tr>
             </tbody>
