@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "lg.com/de"
 link_url: "http://www.lg.com/de/wearables/lg-G-Watch-R"
 
-preis: "318,70 €"
+preis: "191,65 €"
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/LG-Electronics-LG-W110-Watch-Smartwatch/dp/B00P2K6N2M"
 ---
