@@ -21,6 +21,11 @@ abmessungen: "45,5 x 52,2 x 10,9mm"
 ip_zertifikat: "IP67"
 sonstiges: "auch als LG Urbane Luxe Variante mit 23 Karat Gold Gehäuse erhältlich"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "lg-watch-urbane-820.jpg"
 img_src_url: "http://www.lgnewsroom.com/2015/02/lg-watch-urbane-melds-classic-look-with-enhanced-features/"

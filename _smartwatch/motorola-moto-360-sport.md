@@ -21,6 +21,11 @@ abmessungen: ""
 ip_zertifikat: ""
 sonstiges: "Silikon-Ausführung mit einer speziellen UV-Beschichtung"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: "motorola-moto-360-sport-820.jpg"
 img_src_url: "http://motorola-blog.blogspot.de/2015/09/the-new-moto-360-collection-giving-you.html"

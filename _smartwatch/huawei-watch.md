@@ -21,6 +21,11 @@ abmessungen: "42 mm Durchmesser, 11,3 mm Höhe"
 ip_zertifikat: ""
 sonstiges: "intuitive Drucktaste \n 3 Farben: Gold, Silber und Schwarz \n Kompatibel mit: Android 4.3+ / iOS 8.2+"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: "huawei-watch-820.jpg"
 img_src_url: "https://www.flickr.com/photos/pestoverde/16948546718/"

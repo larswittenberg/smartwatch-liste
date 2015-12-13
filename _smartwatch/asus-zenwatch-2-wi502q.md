@@ -21,6 +21,11 @@ abmessungen: "45 x 37 mm"
 ip_zertifikat: "IP67"
 sonstiges: "Krone \n Kompatibel mit: Android und iOS"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "asus-zenwatch-2-wi502q-820.jpg"
 img_src_url: "http://press.asus.com/release.php?id=61#.VgR2IGTtlBe"

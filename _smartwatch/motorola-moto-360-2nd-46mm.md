@@ -21,6 +21,11 @@ abmessungen: "46 mm Durchmesser, \n 11,4 mm Höhe"
 ip_zertifikat: "IP67"
 sonstiges: "Display mit Corning<sup>®</sup> Gorilla<sup>®</sup> Glass 3, Duale digitale Mikrofone"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "motorola-moto-360-2nd-46mm-820.jpg"
 img_src_url: "http://motorola-blog.blogspot.de/2015/09/the-new-moto-360-collection-giving-you.html"
