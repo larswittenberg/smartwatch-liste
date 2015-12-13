@@ -21,6 +21,11 @@ abmessungen: "52 x 36 x 11,5 mm"
 ip_zertifikat: "Wasserabweisend bis 50 Meter"
 sonstiges: "4 Tasten, Display ist nicht Touch-fähig"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.1+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "6+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "pebble-watch-820.jpg"
 img_src_url: "https://getpebble.com/"

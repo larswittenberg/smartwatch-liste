@@ -21,6 +21,11 @@ abmessungen: "46 x 34 x 10,5 mm"
 ip_zertifikat: "Wasserabweisend bis 50 Meter"
 sonstiges: "Display mit Corning<sup>®</sup> Gorilla<sup>®</sup> Glass, Display ist nicht Touch-fähig, 4 Tasten"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.1+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "6+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "pebble-steel-820.jpg"
 img_src_url: "https://getpebble.com/"

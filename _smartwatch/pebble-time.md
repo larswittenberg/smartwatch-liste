@@ -21,6 +21,11 @@ abmessungen: "40,5 x 37,5 x 9,5 mm"
 ip_zertifikat: "Wasserabweisend bis 30 Meter"
 sonstiges: "Display mit Corning<sup>®</sup> Gorilla<sup>®</sup> Glass, Mikrofon, Vibrationsmotor, 4 Tasten, Display ist nicht Touch-fähig"
 
+kompatibilitaet_android: "ja"
+kompatibilitaet_android-version: "4.3+"
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8+"
+
 img_src: "dummy-410.jpg"
 img_src_2x: "pebble-time-820.jpg"
 img_src_url: "https://getpebble.com/"
