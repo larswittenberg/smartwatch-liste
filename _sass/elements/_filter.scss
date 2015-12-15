@@ -2,7 +2,10 @@
 // FILTER
 //*******************************************************************************
 
-.filterlist {}
+.filterlist {
+  min-height: 30px;
+  margin-bottom: 10px;
+}
 
 .filterlist__item {
   display: inline-block;
