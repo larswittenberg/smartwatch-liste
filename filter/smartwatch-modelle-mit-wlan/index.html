@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Kompatibel mit iOS und iPhone - Smartwatch Vergleich
+title: Smartwatch Modelle mit WLAN - Smartwatch Vergleich
 ---
 
     <div class="container fixed-header-spacer">
       <div class="jumbotron">
-        <h2>iOS / iPhone Kompatibilität</h2>
+        <h2>Smartwatch Modelle mit WLAN</h2>
+        <p>Die folgenden Smartwatch-Modelle bieten eine WLAN Konnektivität.</p>
       </div>
     </div>
 
@@ -13,7 +14,7 @@ title: Kompatibel mit iOS und iPhone - Smartwatch Vergleich
       <div class="row smartwatch-list">
 {% assign items = site.smartwatch | sort: "date" | reverse %}
 {% for smartwatch in items %}
-{% if smartwatch.kompatibilitaet_ios == "ja" %}
+{% if smartwatch.wlan != "" %}
         <div class="col-sm-6 col-md-4 smartwatch" id="{{ smartwatch.id }}" data-hersteller="{{ smartwatch.hersteller }}" data-betriebssystem="{{ smartwatch.betriebssystem }}">
           <div class="card">
             <div class="card__image-wrapper">

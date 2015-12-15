@@ -1,20 +1,12 @@
 ---
 layout: default
-title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
+title: Kompatibel mit iPhone und iOS - Smartwatch Vergleich
 ---
 
     <div class="container fixed-header-spacer">
       <div class="jumbotron">
-        <h1>Smartwatch Übersicht</h1>
-        <p class="lead">smartwatch-liste.de versucht einen Überblick über die <br>verschiedenen Modelle auf dem Smartwatch-Markt zu liefern.</p>
-        <p><small class="text-muted">Kein Anspruch auf Vollständigkeit. <br class="visible-xs-block"> Änderungen und Irrtümer vorbehalten.</small></p>
-
-        <ul class="filterlist">
-          <li class="filterlist__item">Smartwatch-Modelle Filtern:</li>
-          <li class="filterlist__item"><a href="filter/kompatibel-mit-iphone-ios" class="filterlist__link">Kompatibel mit iPhone / iOS</a></li>
-          <li class="filterlist__item"><a href="filter/smartwatch-modelle-mit-wlan/" class="filterlist__link">Modelle mit WLAN</a></li>
-          <li class="filterlist__item"><a href="filter/smartwatch-modelle-2015/" class="filterlist__link">Modelle aus 2015</a></li>
-        </ul>
+        <h2>Kompatibel mit dem iPhone / iOS</h2>
+        <p>Die folgenden Smartwatch-Modelle sind mit dem iPhone / iOS kompatibel.</p>
       </div>
     </div>
 
@@ -22,6 +14,7 @@ title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
       <div class="row smartwatch-list">
 {% assign items = site.smartwatch | sort: "date" | reverse %}
 {% for smartwatch in items %}
+{% if smartwatch.kompatibilitaet_ios == "ja" %}
         <div class="col-sm-6 col-md-4 smartwatch" id="{{ smartwatch.id }}" data-hersteller="{{ smartwatch.hersteller }}" data-betriebssystem="{{ smartwatch.betriebssystem }}">
           <div class="card">
             <div class="card__image-wrapper">
@@ -68,6 +61,7 @@ title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
             </table>
           </div>
         </div>
+{% endif %}
 {% endfor %}
       </div>
     </div>
