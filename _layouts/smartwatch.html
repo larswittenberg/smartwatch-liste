@@ -88,7 +88,7 @@ layout: default
               </tr>
               <tr>
                 <td class="feature__name" data-th="WLAN">WLAN</td>
-                <td class="feature__data">{{ page.wlan | newline_to_br }}</td>
+                <td class="feature__data">{% if page.wlan == "" %}Nein{% else if %}{{ page.wlan | newline_to_br }}{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="Bluetooth">Bluetooth</td>
