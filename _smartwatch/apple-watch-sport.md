@@ -21,6 +21,11 @@ abmessungen: "38 mm Modell: \n 38,6 x 33,3 x 10,5 mm \n 42 mm Modell: \n 42,0 x 
 ip_zertifikat: "IPX7"
 sonstiges: "7000er Aluminium Gehäuse, Ion-X Glas, Gehäuseboden aus Kompositmaterial, Retina Display mit Force Touch, Sportarmband, Digital Crown, Lautsprecher und Mikrofon, 2 Gehäuse-Farben (Silver oder Space Grey)"
 
+kompatibilitaet_android: "nein"
+kompatibilitaet_android-version: ""
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: "apple-watch-sport-820.jpg"
 img_src_url: "https://www.flickr.com/photos/clockmaker-jp/17111109088"

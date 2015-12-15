@@ -21,6 +21,11 @@ abmessungen: "38 mm Modell: \n 38,6 x 33,3 x 10,5 mm \n 42 mm Modell: \n 42,0 x 
 ip_zertifikat: "IPX7"
 sonstiges: "316L Edelstahl Gehäuse, Saphirglas, Gehäuseboden aus Keramik, Retina Display mit Force Touch, verschiedene Armbänder, Digital Crown, Lautsprecher und Mikrofon, Gehäuse auch in Space Black"
 
+kompatibilitaet_android: "nein"
+kompatibilitaet_android-version: ""
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: "apple-watch-820.jpg"
 img_src_url: "https://www.flickr.com/photos/taedc/18316884565"

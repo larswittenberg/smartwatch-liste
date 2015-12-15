@@ -21,6 +21,11 @@ abmessungen: "38 mm Modell: \n 38,6 x 33,3 x 10,5 mm \n 42 mm Modell: \n 42,0 x 
 ip_zertifikat: "IPX7"
 sonstiges: "18 Karat Gelbgold oder Roségold Gehäuse, Saphirglas, Gehäuseboden aus Keramik, Retina Display mit Force Touch, verschiedene Armbänder, Digital Crown, Lautsprecher und Mikrofon, 2 Gehäuse-Farben"
 
+kompatibilitaet_android: "nein"
+kompatibilitaet_android-version: ""
+kompatibilitaet_ios: "ja"
+kompatibilitaet_ios-version: "8.2+"
+
 img_src: ""
 img_src_2x: ""
 img_src_url: ""
