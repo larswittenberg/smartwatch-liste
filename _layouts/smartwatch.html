@@ -137,7 +137,7 @@ layout: default
               {% endif %}
               <tr>
                 <td class="feature__name" data-th="Preis">Preis (ab)</td>
-                <td class="feature__data">{% if page.preis != "" %}{{ page.preis | newline_to_br }} €{% else %}?{% endif %}</td>
+                <td class="feature__data">{% if page.preis and page.preis != "" %}{{ page.preis | newline_to_br }} €{% else %}?{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__data text-center" colspan="2">

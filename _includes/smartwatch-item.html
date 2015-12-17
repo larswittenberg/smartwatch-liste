@@ -38,7 +38,7 @@
                 </tr>
                 <tr>
                   <td class="feature__name" data-th="Preis">Preis (ab)</td>
-                  <td class="feature__data">{% if smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
+                  <td class="feature__data">{% if smartwatch.preis and smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
                 </tr>
               </tbody>
             </table>
