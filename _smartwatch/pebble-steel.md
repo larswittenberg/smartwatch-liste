@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "getpebble.com"
 link_url: "https://getpebble.com/pebble_steel"
 
-preis: "179,99 €"
-shop_link_name: "getpebble.com"
-shop_link_url: "https://getpebble.com/shop/pebble_steel"
+preis: "179,00 €"
+shop_link_name: "amazon.de"
+shop_link_url: "http://www.amazon.de/dp/B00IVX0XGO"
 ---
