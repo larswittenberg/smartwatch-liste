@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "asus.com/de"
 link_url: "http://www.asus.com/de/ZenWatch/ASUS_ZenWatch_2_WI502Q/"
 
-preis: "169,00"
+preis: 169
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/dp/B01576WAZY"
 ---

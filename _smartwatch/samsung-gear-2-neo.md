@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "http://stadt-bremerhaven.de/"
 link_url: "http://stadt-bremerhaven.de/mwc-2014-samsung-gear-2-und-gear-2-neo-offiziell-vorgestellt-erste-tizen-produkte/"
 
-preis: "169,00"
+preis: 169
 shop_link_name: "viking.de"
 shop_link_url: "http://www.viking.de/catalog/catalogSku.do?id=6834078&pr=Q89"
 ---

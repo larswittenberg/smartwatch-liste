@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "fossil.com/de"
 link_url: "https://www.fossil.com/de/de/search/fossil-q-founder-edelstahl-sku-ftw20002p.html"
 
-preis: "299,00"
+preis: 299
 shop_link_name: "fossil.com/de"
 shop_link_url: "https://www.fossil.com/de/de/search/fossil-q-founder-edelstahl-sku-ftw20002p.html"
 ---

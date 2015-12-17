@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "lge.de"
 link_url: "http://presse.lge.de/2015/10/01/lg-praesentiert-neue-smartwatch-mit-android-wear-und-lte/"
 
-preis: ""
+preis: 
 shop_link_name: ""
 shop_link_url: ""
 ---

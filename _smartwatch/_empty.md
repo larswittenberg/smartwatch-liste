@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: ""
 link_url: ""
 
-preis: ""
+preis: 
 shop_link_name: ""
 shop_link_url: ""
 ---

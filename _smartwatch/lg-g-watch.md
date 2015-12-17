@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "lg.com/de"
 link_url: "http://www.lg.com/de/wearables/lg-G-Watch"
 
-preis: "80,00"
+preis: 80
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/LG-Watch-2-GHz-Qualcomm-Prozessor-micro-USB-Bluetooth-Schwarz/dp/B00LWUGLP0/"
 ---

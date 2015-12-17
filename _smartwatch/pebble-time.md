@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "getpebble.com"
 link_url: "https://getpebble.com/pebble_time"
 
-preis: "249,99"
+preis: 249.99
 shop_link_name: "getpebble.com"
 shop_link_url: "https://getpebble.com/shop/pebble_time"
 ---

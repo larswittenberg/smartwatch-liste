@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "motorola.de"
 link_url: "http://www.motorola.de/Moto-360-Sport/moto-360-sport-eu.html"
 
-preis: ""
+preis: 
 shop_link_name: ""
 shop_link_url: ""
 ---
