@@ -14,52 +14,7 @@ title: Smartwatch Modelle von Motorola - Smartwatch Vergleich
 {% assign items = site.smartwatch | sort: "date" | reverse %}
 {% for smartwatch in items %}
 {% if smartwatch.hersteller == "Motorola" %}
-        <div class="col-sm-6 col-md-4 smartwatch" id="{{ smartwatch.id }}" data-hersteller="{{ smartwatch.hersteller }}" data-betriebssystem="{{ smartwatch.betriebssystem }}">
-          <div class="card">
-            <div class="card__image-wrapper">
-              <a class="card__image-link" href="/{{ smartwatch.id }}">
-                {% if smartwatch.img_src_2x != '' %}
-                <img src="/img/1.gif" data-src="/img/{{ smartwatch.img_src_2x }}" alt="{{ smartwatch.hersteller }} {{ smartwatch.name }}" class="card__image lazyload" width="390">
-                {% else %}
-                <img src="/img/1.gif" data-src="/img/dummy-820.jpg" alt="Platzhalter" class="card__image lazyload" width="390">
-                {% endif %}
-              </a>
-              {% if smartwatch.img_src_2x != '' %}
-              <p class="card__image-desc">
-                Foto:
-                {% if smartwatch.img_author_name != '' %}
-                  <a href="{{ smartwatch.img_src_url }}">{{ smartwatch.img_author_name }}</a>
-                {% else %}
-                  <a href="{{ smartwatch.img_src_url }}">{{ smartwatch.img_src_name }}</a>
-                {% endif %}
-                {% if smartwatch.img_license_url != '' %}
-                  / Lizenz <a href="{{ smartwatch.img_license_url }}">{{ smartwatch.img_license_name }}</a>
-                {% endif %}
-              </p>
-              {% endif %}
-            </div>
-
-            <h2 class="card__headline">
-              <a href="/{{ smartwatch.id }}">{{ smartwatch.hersteller }} {{ smartwatch.name }}</a>
-            </h2>
-            <table class="card__minitable">
-              <tbody>
-                <tr>
-                  <td class="feature__name" data-th="Markteinführung">Markteinführung</td>
-                  {% if smartwatch.date %}
-                  <td class="feature__data">{{ smartwatch.date | date: "%m / %Y" }}</td>
-                  {% else %}
-                  <td class="feature__data">unbekannt</td>
-                  {% endif %}
-                </tr>
-                <tr>
-                  <td class="feature__name" data-th="Preis">Preis (ab)</td>
-                  <td class="feature__data">{{ smartwatch.preis | newline_to_br }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+  {% include smartwatch-item.html %}
 {% endif %}
 {% endfor %}
       </div>
