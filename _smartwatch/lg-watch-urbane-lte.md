@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "lg.com"
 link_url: "http://presse.lge.de/2015/02/26/lg-watch-urbane-lte-das-smartphone-fuers-handgelenk-und-so-viel-mehr/"
 
-preis: "?"
+preis: ""
 shop_link_name: ""
 shop_link_url: ""
 ---

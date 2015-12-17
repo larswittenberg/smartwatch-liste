@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "tagheuerconnected.com"
 link_url: "http://www.tagheuerconnected.com/"
 
-preis: "1350,00 €"
+preis: "1350,00"
 shop_link_name: "tagheuerconnected.com"
 shop_link_url: "http://www.tagheuerconnected.com/product"
 ---

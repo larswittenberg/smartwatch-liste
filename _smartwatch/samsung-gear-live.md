@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "store.google.com"
 link_url: "https://store.google.com/product/samsung_gear_live"
 
-preis: "?"
+preis: ""
 shop_link_name: ""
 shop_link_url: ""
 ---

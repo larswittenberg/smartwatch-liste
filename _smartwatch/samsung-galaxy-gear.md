@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "samsung.com"
 link_url: "http://www.samsung.com/uk/consumer/mobile-devices/wearables/gear/SM-V7000ZKABTU"
 
-preis: "?"
+preis: ""
 shop_link_name: ""
 shop_link_url: ""
 ---

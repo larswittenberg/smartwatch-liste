@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "http://stadt-bremerhaven.de/"
 link_url: "http://stadt-bremerhaven.de/mwc-2014-samsung-gear-2-und-gear-2-neo-offiziell-vorgestellt-erste-tizen-produkte/"
 
-preis: "254,85 €"
+preis: "254,85"
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/Samsung-Gear-Smartwatch-carcoal-schwarz/dp/B00IMCTP22/"
 ---

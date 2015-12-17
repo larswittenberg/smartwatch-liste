@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "samsung.com"
 link_url: "http://www.samsung.com/global/microsite/gears/index.html"
 
-preis: "299,00 €"
+preis: "299,00"
 shop_link_name: "mediamarkt.de"
 shop_link_url: "http://www.mediamarkt.de/mcs/product/_SAMSUNG-Gear-S,48353,1479791.html?langId=-3"
 ---

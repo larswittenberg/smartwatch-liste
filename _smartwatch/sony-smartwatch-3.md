@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "sonymobile.com/de"
 link_url: "http://www.sonymobile.com/de/products/smartwear/smartwatch-3-swr50/"
 
-preis: "157,99 €"
+preis: "157,99"
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/Sony-SmartWatch-LCD-Display-2-GHz-Quad-Core-Prozessor-Android-Schwarz/dp/B00N9OAQI0"
 ---

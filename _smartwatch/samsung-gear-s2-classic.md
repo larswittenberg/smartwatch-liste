@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "samsung.com/de"
 link_url: "http://www.samsung.com/de/galaxy/gear-s2/features/"
 
-preis: "379,00 €"
+preis: "379,00"
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/dp/B014WGN4MI"
 ---

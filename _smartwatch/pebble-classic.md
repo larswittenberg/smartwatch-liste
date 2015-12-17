@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "getpebble.com"
 link_url: "https://getpebble.com/pebble"
 
-preis: "93,95 €"
+preis: "93,95"
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/dp/B00BKEQBI0"
 ---

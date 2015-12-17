@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "lg.com"
 link_url: "http://www.lg.com/de/wearables/lg-Watch-Urbane"
 
-preis: "237,49 €"
+preis: "237,49"
 shop_link_name: "amazon.de"
 shop_link_url: "http://www.amazon.de/LG-Urbane-Smartwatch-Display-Android/dp/B00VRV1DAC"
 ---

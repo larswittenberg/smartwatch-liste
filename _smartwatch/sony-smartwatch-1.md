@@ -33,7 +33,7 @@ img_license_url: ""
 link_name: "sonymobile.com"
 link_url: "http://www.sonymobile.com/global-en/products/accessories/smartwatch/specifications/#tabs"
 
-preis: "?"
+preis: ""
 shop_link_name: ""
 shop_link_url: ""
 ---
