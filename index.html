@@ -70,7 +70,7 @@ title: Smartwatch Übersicht - Verschiedene Modelle im Überblick zum Vergleich
                 </tr>
                 <tr>
                   <td class="feature__name" data-th="Preis">Preis (ab)</td>
-                  <td class="feature__data">{{ smartwatch.preis | newline_to_br }}</td>
+                  <td class="feature__data">{% if smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
                 </tr>
               </tbody>
             </table>
