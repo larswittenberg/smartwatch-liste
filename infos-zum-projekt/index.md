@@ -30,3 +30,21 @@ Falls verschiedene Modelle (Farben, Materialien, ...) einer Smartwatch verfügba
 ### Affiliate-Links
 
 Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliate-Link dorthin.
+
+
+## Updates
+
+### 17.12.2015
+* Filter-Option für Preise bis 200 € und 300 €
+* Preis Update: Asus Zen Watch, Pebble Classic, Pebble Steel, Pebble Time Steel
+
+### 16.12.2015
+* Filter-Option für Hersteller, WLAN, Kompatibilität iOS, Jahr 2015
+
+### 13.12.2015
+* Update iPhone / iOS Kompatibilitäten
+* Preis Update: Huawei Watch, LG G Watch R, LG G Watch, LG Watch Urbane, Sony Smartwatch 3
+
+### 09.12.2015
+* Bild Update: Fossil Q Founder
+* Daten Update: Fossil Q Founder, TAG Heuer Connected
