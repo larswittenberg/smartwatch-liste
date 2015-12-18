@@ -5,6 +5,10 @@
 .filterlist {
   min-height: 30px;
   margin-bottom: 10px;
+
+  @include breakpoint(md) {
+    max-width: 650px;
+  }
 }
 
 .filterlist__item {
@@ -12,7 +16,7 @@
   margin-bottom: .8em;
 
   @include breakpoint(md) {
-    margin-bottom: 0;
+    //margin-bottom: 0;
   }
 }
 

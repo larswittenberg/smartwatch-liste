@@ -1,0 +1,23 @@
+---
+layout: default
+title: Smartwatch Modelle mit rundem Display - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle mit rundem Display</h2>
+        <p>Die folgenden Smartwatch-Modelle haben ein rundes Display.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.case_type == "rund" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+
