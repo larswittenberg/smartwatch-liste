@@ -14,8 +14,8 @@ twitter: [@smartwatchliste](https://twitter.com/smartwatchliste)
 Verantwortlich für die Inhalte (gemäß § 5 TMG / § 55 II RStV)
 
 Lars Wittenberg \\
-Rotenwald Straße 10 \\
-70197 Stuttgart
+Rotkehlchenweg 45 \\
+70734 Fellbach
 
 
 ### Google Analytics
