@@ -36,6 +36,7 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ### 17.12.2015
 * Filter-Option für Preise bis 200 € und 300 €
+* Filter Option für rundes und eckiges Display
 * Preis Update: Asus Zen Watch, Pebble Classic, Pebble Steel, Pebble Time Steel
 
 ### 16.12.2015
