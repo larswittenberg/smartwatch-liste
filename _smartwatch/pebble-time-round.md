@@ -7,7 +7,7 @@ date: 2015-11-01
 case_type: "rund"
 betriebssystem: "Pebble OS"
 display: "64 farbiges e-paper Display"
-aufloesung: "180 x 180 Pixel"
+aufloesung: "180 x 180 Pixel, 191 ppi"
 akku: "150 mAh (max. 2 Tage)"
 prozessor: "100 MHz, Cortex-M4"
 ram: ""
