@@ -7,9 +7,9 @@ date: 2015-09-01
 case_type: "rund"
 betriebssystem: "Proprietär"
 display: "1.22“ IPS, TFT LCD mit 262 k Farben"
-aufloesung: "240 x 240 Pixel"
+aufloesung: "240 x 204 Pixel"
 akku: "225 mAh"
-prozessor: ""
+prozessor: "STM 429"
 ram: ""
 interner_speicher: ""
 wlan: ""
@@ -38,7 +38,7 @@ img_license_url: ""
 link_name: "gowatch.alcatelonetouch.com"
 link_url: "http://gowatch.alcatelonetouch.com/"
 
-preis: 
-shop_link_name: ""
-shop_link_url: ""
+preis: 124
+shop_link_name: "klepsoo.com"
+shop_link_url: "https://www.klepsoo.com/de/uhren/alcatel-onetouch/sm03-2aalwe7.html/"
 ---
