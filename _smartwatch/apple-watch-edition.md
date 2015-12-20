@@ -7,7 +7,7 @@ date: 2015-04-01
 case_type: "eckig"
 betriebssystem: "watchOS"
 display: "Retina OLED \n 38 mm Modell: 1,32” \n 42 mm Modell: 1,5”"
-aufloesung: "38 mm Modell: \n 272 × 340 Pixel \n 42 mm Modell: \n 312 × 390 Pixel"
+aufloesung: "38 mm Modell: \n 272 × 340 Pixel, 326 ppi \n 42 mm Modell: \n 312 × 390 Pixel, 326 ppi"
 akku: "38 mm Modell: 205 mAh \n 42 mm Modell: 246 mAh"
 prozessor: "Apple S1"
 ram: "512 MB"
