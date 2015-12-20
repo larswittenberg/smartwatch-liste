@@ -37,7 +37,7 @@ layout: default
 
               {% assign items = site.smartwatch | sort: "date" | reverse %}
               {% for smartwatch in items %}
-                <tr>
+                <tr data-hersteller="{{ smartwatch.hersteller }}" data-date="{{ smartwatch.date | date: "%Y" }}">
                   <td class="feature__data">{{ forloop.index }}</td>
                   <td class="feature__data">{{ smartwatch.hersteller }}</td>
                   <td class="feature__data"><a href="{{ site.baseurl }}/{{ smartwatch.id }}">{{ smartwatch.name }}</a></td>
