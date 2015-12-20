@@ -34,6 +34,10 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ## Updates
 
+### 20.12.2015
+* Neue Smartwatch: Alcatel OneTouch Watch
+* Daten Update: Motorola Moto 360 Sport
+
 ### 17.12.2015
 * Filter-Option für Preise bis 200 € und 300 €
 * Filter Option für rundes und eckiges Display
