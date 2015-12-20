@@ -36,6 +36,7 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ### 20.12.2015
 * Neue Smartwatch: Alcatel OneTouch Watch
+* Neue Smartwatch: Alcatel Go Watch
 * Daten Update: Motorola Moto 360 Sport
 
 ### 17.12.2015
