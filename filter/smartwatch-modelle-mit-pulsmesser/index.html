@@ -1,0 +1,24 @@
+---
+layout: default
+title: Smartwatch Modelle mit Pulsmesser - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle mit Pulsmesser (Herzfrequenzmesser)</h2>
+        <p>Die folgenden Smartwatch-Modelle haben einen Herzfrequenzmesser.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.pulsmesser and smartwatch.pulsmesser != "" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+

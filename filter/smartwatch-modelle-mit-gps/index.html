@@ -1,0 +1,24 @@
+---
+layout: default
+title: Smartwatch Modelle mit GPS - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle mit GPS</h2>
+        <p>Die folgenden Smartwatch-Modelle bieten einen GPS Sensor.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.gps and smartwatch.gps != "" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+
