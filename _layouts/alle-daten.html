@@ -52,10 +52,10 @@ layout: default
                   <td class="feature__data">{{ smartwatch.prozessor | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.ram | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.interner_speicher | newline_to_br }}</td>
-                  <td class="feature__data">{% if smartwatch.wlan == "" %}Nein{% else if %}{{ smartwatch.wlan | newline_to_br }}{% endif %}</td>
+                  <td class="feature__data">{% if smartwatch.wlan and smartwatch.wlan != "" %}{{ smartwatch.wlan }}{% else if %}-{% endif %}</td>
                   <td class="feature__data">{{ smartwatch.bluetooth | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.konnektivitaet | newline_to_br }}</td>
-                  <td class="feature__data">{% if smartwatch.pulsmesser and smartwatch.pulsmesser != "" %}{{ smartwatch.pulsmesser | newline_to_br }}{% else if %}-{% endif %}</td>
+                  <td class="feature__data">{% if smartwatch.pulsmesser and smartwatch.pulsmesser != "" %}{{ smartwatch.pulsmesser }}{% else if %}-{% endif %}</td>
                   <td class="feature__data">{{ smartwatch.gps | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.gewicht | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.abmessungen | newline_to_br }}</td>
