@@ -52,16 +52,18 @@ layout: default
                 <td class="feature__name" data-th="Betriebssystem">Betriebs&shy;system</td>
                 <td class="feature__data">{{ page.betriebssystem | newline_to_br }}</td>
               </tr>
-              {% if page.kompatibilitaet_android or page.kompatibilitaet_ios %}
               <tr>
                 <td class="feature__name" data-th="Kompatibilität">Kompatibilität</td>
                 <td class="feature__data">
+              {% if page.kompatibilitaet_android or page.kompatibilitaet_ios %}
                   {% if page.kompatibilitaet_android == "ja" %}Android {{ page.kompatibilitaet_android-version }} {% endif %}
                   {% if page.kompatibilitaet_android == "ja" and page.kompatibilitaet_ios == "ja" %} / {% endif %}
                   {% if page.kompatibilitaet_ios == "ja" %}iOS {{ page.kompatibilitaet_ios-version }} {% endif %}
+              {% else %}
+                  ?
+              {% endif %}
                 </td>
               </tr>
-              {% endif %}
               <tr>
                 <td class="feature__name" data-th="Display">Display</td>
                 <td class="feature__data">{{ page.display | newline_to_br }}</td>
@@ -80,33 +82,31 @@ layout: default
               </tr>
               <tr>
                 <td class="feature__name" data-th="RAM">RAM</td>
-                <td class="feature__data">{{ page.ram | newline_to_br }}</td>
+                <td class="feature__data">{{ page.ram }}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="Interner Speicher">Interner Speicher</td>
-                <td class="feature__data">{{ page.interner_speicher | newline_to_br }}</td>
+                <td class="feature__data">{{ page.interner_speicher }}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="WLAN">WLAN</td>
-                <td class="feature__data">{% if page.wlan == "" %}-{% else if %}{{ page.wlan | newline_to_br }}{% endif %}</td>
+                <td class="feature__data">{% if page.wlan and page.wlan != "" %}{{ page.wlan }}{% else if %}-{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="Bluetooth">Bluetooth</td>
-                <td class="feature__data">{{ page.bluetooth | newline_to_br }}</td>
+                <td class="feature__data">{{ page.bluetooth }}</td>
               </tr>
-              {% if page.konnektivitaet != '' %}
               <tr>
                 <td class="feature__name" data-th="Konnektivität">Konnektivität</td>
-                <td class="feature__data">{{ page.konnektivitaet | newline_to_br }}</td>
+                <td class="feature__data">{% if page.konnektivitaet and page.konnektivitaet != "" %}{{ page.konnektivitaet }}{% else if %}-{% endif %}</td>
               </tr>
-              {% endif %}
               <tr>
                 <td class="feature__name" data-th="Pulsmesser">Pulsmesser</td>
-                <td class="feature__data">{% if page.pulsmesser and page.pulsmesser != "" %}{{ page.pulsmesser | newline_to_br }}{% else if %}-{% endif %}</td>
+                <td class="feature__data">{% if page.pulsmesser and page.pulsmesser != "" %}{{ page.pulsmesser }}{% else if %}-{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="GPS">GPS</td>
-                <td class="feature__data">{% if page.gps and page.gps != "" %}{{ page.gps | newline_to_br }}{% else if %}-{% endif %}</td>
+                <td class="feature__data">{% if page.gps and page.gps != "" %}{{ page.gps }}{% else if %}-{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="Sensoren">Sensoren</td>
@@ -120,12 +120,10 @@ layout: default
                 <td class="feature__name" data-th="Abmessungen">Abmessungen</td>
                 <td class="feature__data">{{ page.abmessungen | newline_to_br }}</td>
               </tr>
-              {% if page.ip_zertifikat != '' %}
               <tr>
                 <td class="feature__name" data-th="Wassergeschützt">Wasser&shy;geschützt</td>
-                <td class="feature__data">{{ page.ip_zertifikat | newline_to_br }}-zertifiziert</td>
+                <td class="feature__data">{% if page.ip_zertifikat and page.ip_zertifikat != "?" %}{{ page.ip_zertifikat }}-zertifiziert{% else %}?{% endif %}</td>
               </tr>
-              {% endif %}
               {% if page.sonstiges != '' %}
               <tr>
                 <td class="feature__name" data-th="Sonstiges">Sonstiges</td>
@@ -145,8 +143,9 @@ layout: default
               {% endif %}
               <tr>
                 <td class="feature__name" data-th="Preis">Preis (ab)</td>
-                <td class="feature__data">{% if page.preis and page.preis != "" %}{{ page.preis | newline_to_br }} €{% else %}?{% endif %}</td>
+                <td class="feature__data">{% if page.preis and page.preis != "" %}{{ page.preis }} €{% else %}?{% endif %}</td>
               </tr>
+              {% if page.preis and page.preis != "" %}
               <tr>
                 <td class="feature__data text-center" colspan="2">
                   {% if page.shop_link_name != '' %}
@@ -159,6 +158,7 @@ layout: default
                   {% endif %}
                 </td>
               </tr>
+              {% endif %}
             </tbody>
           </table>
         </div>
