@@ -88,7 +88,7 @@ layout: default
               </tr>
               <tr>
                 <td class="feature__name" data-th="WLAN">WLAN</td>
-                <td class="feature__data">{% if page.wlan == "" %}Nein{% else if %}{{ page.wlan | newline_to_br }}{% endif %}</td>
+                <td class="feature__data">{% if page.wlan == "" %}-{% else if %}{{ page.wlan | newline_to_br }}{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="Bluetooth">Bluetooth</td>
@@ -100,6 +100,14 @@ layout: default
                 <td class="feature__data">{{ page.konnektivitaet | newline_to_br }}</td>
               </tr>
               {% endif %}
+              <tr>
+                <td class="feature__name" data-th="Pulsmesser">Pulsmesser</td>
+                <td class="feature__data">{% if page.pulsmesser and page.pulsmesser != "" %}{{ page.pulsmesser | newline_to_br }}{% else if %}-{% endif %}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="GPS">GPS</td>
+                <td class="feature__data">{% if page.gps and page.gps != "" %}{{ page.gps | newline_to_br }}{% else if %}-{% endif %}</td>
+              </tr>
               <tr>
                 <td class="feature__name" data-th="Sensoren">Sensoren</td>
                 <td class="feature__data">{{ page.sensoren | newline_to_br }}</td>

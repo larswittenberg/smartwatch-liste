@@ -29,6 +29,8 @@ layout: default
                   <th class="feature__name" data-th="WLAN">WLAN</th>
                   <th class="feature__name" data-th="Bluetooth">Bluetooth</th>
                   <th class="feature__name" data-th="Konnektivität">Konnektivität</th>
+                  <th class="feature__name" data-th="Pulsmesser">Pulsmesser</th>
+                  <th class="feature__name" data-th="GPS">GPS</th>
                   <th class="feature__name" data-th="Gewicht">Gewicht</th>
                   <th class="feature__name w140" data-th="Abmessungen">Abmessungen</th>
                 </tr>
@@ -53,6 +55,8 @@ layout: default
                   <td class="feature__data">{% if smartwatch.wlan == "" %}Nein{% else if %}{{ smartwatch.wlan | newline_to_br }}{% endif %}</td>
                   <td class="feature__data">{{ smartwatch.bluetooth | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.konnektivitaet | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.pulsmesser | newline_to_br }}</td>
+                  <td class="feature__data">{{ smartwatch.gps | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.gewicht | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.abmessungen | newline_to_br }}</td>
                 </tr>
