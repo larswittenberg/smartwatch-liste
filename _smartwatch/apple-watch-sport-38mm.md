@@ -1,14 +1,14 @@
 ---
-title: Apple Watch Sport - Technische Daten
-id: "apple-watch-sport"
+title: Apple Watch Sport (38mm) - Technische Daten
+id: "apple-watch-sport-38mm"
 hersteller: "Apple"
-name: "Watch Sport"
-date: 2015-04-01
+name: "Watch Sport (38mm)"
+date: 2015-04-01 00:00:06 +00:00
 case_type: "eckig"
 betriebssystem: "watchOS"
-display: "Retina OLED \n 38 mm Modell: 1,32” \n 42 mm Modell: 1,5”"
-aufloesung: "38 mm Modell: \n 272 × 340 Pixel, 326 ppi \n 42 mm Modell: \n 312 × 390 Pixel, 326 ppi"
-akku: "38 mm Modell: 205 mAh \n 42 mm Modell: 246 mAh"
+display: "Retina OLED 1,32”"
+aufloesung: "272 × 340 Pixel, 326 ppi"
+akku: "205 mAh"
 prozessor: "Apple S1"
 ram: "512 MB"
 interner_speicher: "8 GB"
@@ -17,8 +17,8 @@ bluetooth: "Bluetooth 4.0"
 konnektivitaet: "NFC"
 pulsmesser: "Ja"
 sensoren: "Umgebungslichtsensor, Beschleunigungssensor und Gyrosensor"
-gewicht: "Nur Gehäuse: \n 38 mm Modell: 25 g \n 42 mm Modell: 30 g"
-abmessungen: "38 mm Modell: \n 38,6 x 33,3 x 10,5 mm \n 42 mm Modell: \n 42,0 x 35,9 x 10,5 mm"
+gewicht: "Nur Gehäuse: 25 g"
+abmessungen: "38,6 x 33,3 x 10,5 mm"
 ip_zertifikat: "IPX7"
 sonstiges: "7000er Aluminium Gehäuse, Ion-X Glas, Gehäuseboden aus Kompositmaterial, Retina Display mit Force Touch, Sportarmband, Digital Crown, Lautsprecher und Mikrofon, 2 Gehäuse-Farben (Silver oder Space Grey)"
 
