@@ -55,7 +55,7 @@ layout: default
                   <td class="feature__data">{% if smartwatch.wlan == "" %}Nein{% else if %}{{ smartwatch.wlan | newline_to_br }}{% endif %}</td>
                   <td class="feature__data">{{ smartwatch.bluetooth | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.konnektivitaet | newline_to_br }}</td>
-                  <td class="feature__data">{{ smartwatch.pulsmesser | newline_to_br }}</td>
+                  <td class="feature__data">{% if smartwatch.pulsmesser and smartwatch.pulsmesser != "" %}{{ smartwatch.pulsmesser | newline_to_br }}{% else if %}-{% endif %}</td>
                   <td class="feature__data">{{ smartwatch.gps | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.gewicht | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.abmessungen | newline_to_br }}</td>
