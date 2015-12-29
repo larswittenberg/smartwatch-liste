@@ -13,11 +13,9 @@ title: Smartwatch Modelle mit Android Wear - Smartwatch Vergleich
 
     <div class="container">
       <div class="row smartwatch-list">
-{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% assign items = site.smartwatch | where:"betriebssystem","Android Wear" | sort: "date" | reverse %}
 {% for smartwatch in items %}
-{% if smartwatch.betriebssystem == "Android Wear" %}
   {% include smartwatch-item.html %}
-{% endif %}
 {% endfor %}
       </div>
     </div>
