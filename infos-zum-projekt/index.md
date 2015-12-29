@@ -37,6 +37,7 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 ### 29.12.2015
 * Daten Update: Pulsmesser und GPS extra aufgeführt
 * Filter-Option für Pulsmesser und GPS
+* Filter-Option für Android Wear als Betriebssystem
 
 ### 20.12.2015
 * Neue Smartwatch: Alcatel OneTouch Watch

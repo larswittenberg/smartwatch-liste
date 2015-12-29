@@ -1,0 +1,24 @@
+---
+layout: default
+title: Smartwatch Modelle mit Android Wear - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle mit Android Wear</h2>
+        <p>Die folgenden Smartwatch-Modelle laufen mit dem Betriebssystem Android Wear.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.betriebssystem == "Android Wear" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+
