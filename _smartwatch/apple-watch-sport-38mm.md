@@ -27,7 +27,7 @@ kompatibilitaet_android-version: ""
 kompatibilitaet_ios: "ja"
 kompatibilitaet_ios-version: "8.2+"
 
-img_src: ""
+img_src: "dummy-410.jpg"
 img_src_2x: "apple-watch-sport-820.jpg"
 img_src_url: "https://www.flickr.com/photos/clockmaker-jp/17111109088"
 img_src_name: "Apple -  Watch Sport"

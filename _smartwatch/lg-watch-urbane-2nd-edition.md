@@ -27,17 +27,10 @@ img_src: "dummy-410.jpg"
 img_src_2x: "lg-watch-urbane-2nd-edition-820.jpg"
 img_src_url: "http://presse.lge.de/2015/10/01/lg-praesentiert-neue-smartwatch-mit-android-wear-und-lte/"
 img_src_name: "LG"
-img_author_name: ""
-img_author_url: ""
-img_license_name: ""
-img_license_url: ""
 
 link_name: "lge.de"
 link_url: "http://presse.lge.de/2015/10/01/lg-praesentiert-neue-smartwatch-mit-android-wear-und-lte/"
 
-preis: 
-shop_link_name: ""
-shop_link_url: ""
 ---
 
 ### Links

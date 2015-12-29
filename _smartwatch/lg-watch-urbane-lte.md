@@ -18,7 +18,7 @@ konnektivitaet: "4G/LTE, NFC"
 pulsmesser: "Ja"
 gps: "Ja"
 sensoren: "9-Achsen (Beschleunigungsmesser, Kompass, Gyroskop), Barometer"
-gewicht: ""
+gewicht: "?"
 abmessungen: "45,5 x 52,2 x 10,9mm"
 ip_zertifikat: "IP67"
 sonstiges: "Lautsprecher, Mikrofon, Drei Knöpfe an der Gehäuseseite"
@@ -27,17 +27,10 @@ img_src: "dummy-410.jpg"
 img_src_2x: "lg-watch-urbane-lte-820.jpg"
 img_src_url: "http://presse.lge.de/2015/02/26/lg-watch-urbane-lte-das-smartphone-fuers-handgelenk-und-so-viel-mehr/"
 img_src_name: "LG"
-img_author_name: ""
-img_author_url: ""
-img_license_name: ""
-img_license_url: ""
 
 link_name: "lg.com"
 link_url: "http://presse.lge.de/2015/02/26/lg-watch-urbane-lte-das-smartphone-fuers-handgelenk-und-so-viel-mehr/"
 
-preis: 
-shop_link_name: ""
-shop_link_url: ""
 ---
 
 ### Links
