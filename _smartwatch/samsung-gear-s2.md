@@ -3,7 +3,7 @@ title: Samsung Gear S2 - Technische Daten
 id: "samsung-gear-s2"
 hersteller: "Samsung"
 name: "Gear S2"
-date: 2015-10-08
+date: 2015-10-08 00:00:02 +00:00
 case_type: "rund"
 betriebssystem: "Tizen OS"
 display: "1,2” Circular Super AMOLED"

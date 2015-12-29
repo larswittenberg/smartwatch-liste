@@ -3,7 +3,7 @@ title: Asus ZenWatch - Technische Daten
 id: "asus-zenwatch"
 hersteller: "Asus"
 name: "ZenWatch"
-date: 2014-11-01
+date: 2014-11-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,63”-AMOLED"

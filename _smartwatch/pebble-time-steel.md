@@ -3,7 +3,7 @@ title: Pebble Time Steel - Technische Daten
 id: "pebble-time-steel"
 hersteller: "Pebble"
 name: "Time Steel"
-date: 2015-08-06
+date: 2015-08-06 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Pebble OS"
 display: "1,25” 64 farbiges e-paper Display"

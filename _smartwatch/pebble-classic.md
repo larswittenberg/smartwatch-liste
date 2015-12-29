@@ -3,7 +3,7 @@ title: Pebble Classic - Technische Daten
 id: "pebble-classic"
 hersteller: "Pebble"
 name: "Classic"
-date: 2013-01-01
+date: 2013-01-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Pebble OS"
 display: "1.26” e-paper Display"

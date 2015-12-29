@@ -3,7 +3,7 @@ title: Motorola Moto 360 - Technische Daten
 id: "motorola-moto-360"
 hersteller: "Motorola"
 name: "Moto 360"
-date: 2014-10-06
+date: 2014-10-06 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,56” LCD mit Hintergrundbeleuchtung"

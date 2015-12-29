@@ -3,7 +3,7 @@ title: LG G Watch R - Technische Daten
 id: "lg-g-watch-r"
 hersteller: "LG"
 name: "G Watch R"
-date: 2014-10-01
+date: 2014-10-01 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,3\" Rundes P-OLED Display"

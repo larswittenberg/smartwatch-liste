@@ -3,7 +3,7 @@ title: Sony SmartWatch 2 - Technische Daten
 id: "sony-smartwatch-2"
 hersteller: "Sony"
 name: "SmartWatch 2"
-date: 2013-10-01
+date: 2013-10-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Android 4.0"
 display: "1,6” LCD"

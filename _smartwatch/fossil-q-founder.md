@@ -3,7 +3,7 @@ title: Fossil Q Founder - Technische Daten
 id: "fossil-q-founder"
 hersteller: "Fossil"
 name: "Q Founder"
-date: 2015-11-25
+date: 2015-11-25 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,5″ LTPS-LCD"

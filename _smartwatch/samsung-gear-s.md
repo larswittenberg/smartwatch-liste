@@ -3,7 +3,7 @@ title: Samsung Gear S - Technische Daten
 id: "samsung-gear-s"
 hersteller: "Samsung"
 name: "Gear S"
-date: 2014-11-01
+date: 2014-11-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Tizen OS"
 display: "2” SuperAMOLED"

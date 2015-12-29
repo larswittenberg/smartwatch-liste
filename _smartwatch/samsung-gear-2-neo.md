@@ -3,7 +3,7 @@ title: Samsung Gear 2 Neo - Technische Daten
 id: "samsung-gear-2-neo"
 hersteller: "Samsung"
 name: "Gear 2 Neo"
-date: 2014-04-01
+date: 2014-04-01 00:00:02 +00:00
 case_type: "eckig"
 betriebssystem: "Tizen OS"
 display: "1,63 Zoll Super AMOLED"

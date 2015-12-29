@@ -3,7 +3,7 @@ title: LG G Watch - Technische Daten
 id: "lg-g-watch"
 hersteller: "LG"
 name: "G Watch"
-date: 2014-06-01
+date: 2014-06-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,65” IPS LCD"

@@ -3,7 +3,7 @@ title: TAG Heuer Connected - Technische Daten
 id: "tag-heuer-connected"
 hersteller: "TAG Heuer"
 name: "Connected"
-date: 2015-11-09
+date: 2015-11-09 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,5 Zoll LPTS LCD"

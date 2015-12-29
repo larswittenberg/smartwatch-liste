@@ -3,7 +3,7 @@ title: Sony SmartWatch 1 - Technische Daten
 id: "sony-smartwatch-1"
 hersteller: "Sony"
 name: "SmartWatch 1"
-date: 2012-01-01
+date: 2012-01-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "?"
 display: "1,3” OLED-Display"

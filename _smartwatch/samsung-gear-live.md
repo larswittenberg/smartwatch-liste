@@ -3,7 +3,7 @@ title: Samsung Gear Live - Technische Daten
 id: "samsung-gear-live"
 hersteller: "Samsung"
 name: "Gear Live"
-date: 2014-06-01
+date: 2014-06-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,63” SuperAMOLED"

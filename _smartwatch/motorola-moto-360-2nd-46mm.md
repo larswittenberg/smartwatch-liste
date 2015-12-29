@@ -3,7 +3,7 @@ title: Motorola Moto 360 2nd 46mm - Technische Daten
 id: "motorola-moto-360-2nd-46mm"
 hersteller: "Motorola"
 name: "Moto 360 2<sup>nd</sup> (46mm)"
-date: 2015-09-01
+date: 2015-09-01 00:00:01 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,56” LCD mit Hintergrundbeleuchtung"

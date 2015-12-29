@@ -3,7 +3,7 @@ title: Pebble Time Round - Technische Daten
 id: "pebble-time-round"
 hersteller: "Pebble"
 name: "Time Round"
-date: 2015-11-01
+date: 2015-11-01 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Pebble OS"
 display: "64 farbiges e-paper Display"

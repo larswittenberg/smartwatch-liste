@@ -3,7 +3,7 @@ title: Huawei Watch - Technische Daten
 id: "huawei-watch"
 hersteller: "Huawei"
 name: "Watch"
-date: 2015-09-23
+date: 2015-09-23 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,4”-AMOLED \n Saphir-Kristall-Glas"

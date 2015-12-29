@@ -3,7 +3,7 @@ title: Samsung Gear 2  - Technische Daten
 id: "samsung-gear-2"
 hersteller: "Samsung"
 name: "Gear 2"
-date: 2014-04-01
+date: 2014-04-01 00:00:01 +00:00
 case_type: "eckig"
 betriebssystem: "Tizen OS"
 display: "1,63 Zoll Super AMOLED"

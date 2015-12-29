@@ -3,7 +3,7 @@ title: Samsung Galaxy Gear - Technische Daten
 id: "samsung-galaxy-gear"
 hersteller: "Samsung"
 name: "Galaxy Gear"
-date: 2013-09-01
+date: 2013-09-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Android 4.3 / \n Tizen OS"
 display: "1,63” SuperAMOLED"

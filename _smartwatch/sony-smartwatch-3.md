@@ -3,7 +3,7 @@ title: Sony SmartWatch 3 - Technische Daten
 id: "sony-smartwatch-3"
 hersteller: "Sony"
 name: "SmartWatch 3"
-date: 2014-09-01
+date: 2014-09-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,68” LCD-Display"

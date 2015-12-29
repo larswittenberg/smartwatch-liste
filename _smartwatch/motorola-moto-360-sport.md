@@ -3,7 +3,7 @@ title: Motorola Moto 360 Sport - Technische Daten
 id: "motorola-moto-360-sport"
 hersteller: "Motorola"
 name: "Moto 360 Sport"
-date: 2016-01-01
+date: 2016-01-01 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1.37” AnyLight Hybrid Display"

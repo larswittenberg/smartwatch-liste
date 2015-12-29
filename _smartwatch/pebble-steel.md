@@ -3,7 +3,7 @@ title: Pebble Steel - Technische Daten
 id: "pebble-steel"
 hersteller: "Pebble"
 name: "Steel"
-date: 2014-02-01
+date: 2014-02-01 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Pebble OS"
 display: "1.26” e-paper Display"

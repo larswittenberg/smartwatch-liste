@@ -3,7 +3,7 @@ title: Alcatel OneTouch Watch
 id: "alcatel-onetouch-watch"
 hersteller: "Alcatel"
 name: "OneTouch Watch"
-date: 2015-08-01
+date: 2015-08-01 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Proprietär"
 display: "1.22“ IPS, TFT LCD mit 262 k Farben"

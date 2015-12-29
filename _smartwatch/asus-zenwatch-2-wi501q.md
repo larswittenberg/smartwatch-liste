@@ -3,7 +3,7 @@ title: Asus ZenWatch 2 (WI501Q) - Technische Daten
 id: "asus-zenwatch-2-wi501q"
 hersteller: "Asus"
 name: "ZenWatch 2 (WI501Q)"
-date: 2015-10-01
+date: 2015-10-01 00:00:01 +00:00
 case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,63”-AMOLED"

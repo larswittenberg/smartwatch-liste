@@ -3,7 +3,7 @@ title: Samsung Gear S2 Classic - Technische Daten
 id: "samsung-gear-s2-classic"
 hersteller: "Samsung"
 name: "Gear S2 Classic"
-date: 2015-10-08
+date: 2015-10-08 00:00:01 +00:00
 case_type: "rund"
 betriebssystem: "Tizen OS"
 display: "1,2” Circular Super AMOLED"

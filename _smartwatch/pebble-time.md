@@ -3,7 +3,7 @@ title: Pebble Time - Technische Daten
 id: "pebble-time"
 hersteller: "Pebble"
 name: "Time"
-date: 2015-05-24
+date: 2015-05-24 00:00:00 +00:00
 case_type: "eckig"
 betriebssystem: "Pebble OS"
 display: "1,25” 64 farbiges e-paper Display"

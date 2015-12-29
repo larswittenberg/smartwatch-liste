@@ -3,7 +3,7 @@ title: LG Watch Urbane LTE - Technische Daten
 id: "lg-watch-urbane-lte"
 hersteller: "LG"
 name: "Watch Urbane LTE"
-date: 2015-03-01
+date: 2015-03-01 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "LG Wearable Platform"
 display: "1,3” P-OLED Display"
