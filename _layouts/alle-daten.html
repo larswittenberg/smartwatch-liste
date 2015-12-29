@@ -45,7 +45,7 @@ layout: default
                   <td class="feature__data"><a href="{{ site.baseurl }}/{{ smartwatch.id }}">{{ smartwatch.name }}</a></td>
                   <td class="feature__data">{{ smartwatch.date | date: "%m / %Y" }}</td>
                   <td class="feature__data">{{ smartwatch.betriebssystem | newline_to_br }}</td>
-                  <td class="feature__data">{% if smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
+                  <td class="feature__data">{% if smartwatch.preis and smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
                   <td class="feature__data white-space--wrap">{{ smartwatch.display | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.aufloesung | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.akku | newline_to_br }}</td>
