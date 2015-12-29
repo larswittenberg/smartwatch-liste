@@ -5,7 +5,7 @@ hersteller: "Samsung"
 name: "Gear Live"
 date: 2014-06-01
 case_type: "eckig"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,63” SuperAMOLED"
 aufloesung: "320 x 320 Pixel, 278 ppi"
 akku: "300 mAh"

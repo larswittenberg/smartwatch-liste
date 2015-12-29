@@ -5,7 +5,7 @@ hersteller: "Asus"
 name: "ZenWatch"
 date: 2014-11-01
 case_type: "eckig"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,63”-AMOLED"
 aufloesung: "320 x 320 Pixel, 278 ppi"
 akku: "1,4 Wh (Batterie)"

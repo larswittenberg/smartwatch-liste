@@ -5,7 +5,7 @@ hersteller: "Sony"
 name: "SmartWatch 3"
 date: 2014-09-01
 case_type: "eckig"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,68” LCD-Display"
 aufloesung: "320 x 320 Pixel, 269 ppi"
 akku: "420 mAh"

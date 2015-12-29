@@ -5,7 +5,7 @@ hersteller: "Fossil"
 name: "Q Founder"
 date: 2015-11-25
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,5″ LTPS-LCD"
 aufloesung: "360 x 326 Pixel, 240 ppi"
 akku: "400 mAh"

@@ -5,7 +5,7 @@ hersteller: "LG"
 name: "Watch Urbane 2<sup>nd</sup> Edition"
 date: 
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,38” P-OLED Display"
 aufloesung: "480 x 480 Pixel, 348 ppi"
 akku: "570 mAh"

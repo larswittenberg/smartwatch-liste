@@ -5,7 +5,7 @@ hersteller: "LG"
 name: "G Watch R"
 date: 2014-10-01
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,3\" Rundes P-OLED Display"
 aufloesung: "320 x 320 Pixel, 245 ppi"
 akku: "410 mAh"

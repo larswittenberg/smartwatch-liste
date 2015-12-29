@@ -5,7 +5,7 @@ hersteller: "Asus"
 name: "ZenWatch 2 (WI502Q)"
 date: 2015-10-01
 case_type: "eckig"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,45”-AMOLED"
 aufloesung: "280 x 280 Pixel, 273 ppi"
 akku: "300 mAh"

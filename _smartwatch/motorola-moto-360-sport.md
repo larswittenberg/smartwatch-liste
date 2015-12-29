@@ -5,7 +5,7 @@ hersteller: "Motorola"
 name: "Moto 360 Sport"
 date: 2016-01-01
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1.37” AnyLight Hybrid Display"
 aufloesung: "360 x 325 Pixel, 263 ppi"
 akku: "300 mAh"

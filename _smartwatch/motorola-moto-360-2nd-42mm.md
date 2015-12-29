@@ -5,7 +5,7 @@ hersteller: "Motorola"
 name: "Moto 360 2<sup>nd</sup> (42mm)"
 date: 2015-09-01
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,37” LCD mit Hintergrundbeleuchtung"
 aufloesung: "360 x 325 Pixel, 263 ppi"
 akku: "300 mAh"

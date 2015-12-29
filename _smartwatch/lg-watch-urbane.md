@@ -5,7 +5,7 @@ hersteller: "LG"
 name: "Watch Urbane"
 date: 2015-02-01
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,3” P-OLED Display"
 aufloesung: "320 x 320 Pixel, 245 ppi"
 akku: "410 mAh"

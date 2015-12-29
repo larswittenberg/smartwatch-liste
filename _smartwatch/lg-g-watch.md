@@ -5,7 +5,7 @@ hersteller: "LG"
 name: "G Watch"
 date: 2014-06-01
 case_type: "eckig"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,65” IPS LCD"
 aufloesung: "280 x 280 Pixel, 240 ppi"
 akku: "400 mAh"

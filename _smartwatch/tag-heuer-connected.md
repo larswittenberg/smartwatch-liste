@@ -5,7 +5,7 @@ hersteller: "TAG Heuer"
 name: "Connected"
 date: 2015-11-09
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,5 Zoll LPTS LCD"
 aufloesung: "360 x 360 Pixel, 240 ppi"
 akku: "410 mAh"

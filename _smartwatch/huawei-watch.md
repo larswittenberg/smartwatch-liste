@@ -5,7 +5,7 @@ hersteller: "Huawei"
 name: "Watch"
 date: 2015-09-23
 case_type: "rund"
-betriebssystem: "Android Wear<sup>TM</sup>"
+betriebssystem: "Android Wear"
 display: "1,4”-AMOLED \n Saphir-Kristall-Glas"
 aufloesung: "400 x 400 Pixel, 286 ppi"
 akku: "300 mAh"
