@@ -14,7 +14,7 @@ ram: "512 MB"
 interner_speicher: "4 GB"
 bluetooth: "Bluetooth 4.0"
 sensoren: "9-Achsen-Sensor\nBiosensor"
-gewicht: "75 g (Body & Armband)"
+gewicht: "75 g"
 abmessungen: "51 x 39,9 x 7,6 ~ 9,4 mm"
 ip_zertifikat: "IP55"
 
