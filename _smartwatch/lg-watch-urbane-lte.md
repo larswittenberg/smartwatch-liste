@@ -1,5 +1,5 @@
 ---
-title: LG Watch Urbane LTE - Technische Daten
+title: LG Watch Urbane LTE
 id: "lg-watch-urbane-lte"
 hersteller: "LG"
 name: "Watch Urbane LTE"

@@ -1,5 +1,5 @@
 ---
-title: Samsung Gear 2 Neo - Technische Daten
+title: Samsung Gear 2 Neo
 id: "samsung-gear-2-neo"
 hersteller: "Samsung"
 name: "Gear 2 Neo"

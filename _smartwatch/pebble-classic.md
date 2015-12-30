@@ -1,5 +1,5 @@
 ---
-title: Pebble Classic - Technische Daten
+title: Pebble Classic
 id: "pebble-classic"
 hersteller: "Pebble"
 name: "Classic"

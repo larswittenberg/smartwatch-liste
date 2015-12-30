@@ -1,5 +1,5 @@
 ---
-title: Samsung Galaxy Gear - Technische Daten
+title: Samsung Galaxy Gear
 id: "samsung-galaxy-gear"
 hersteller: "Samsung"
 name: "Galaxy Gear"

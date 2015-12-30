@@ -1,9 +1,9 @@
 ---
-title: LG Watch Urbane 2nd Edition - Technische Daten
+title: LG Watch Urbane 2nd Edition
 id: "lg-watch-urbane-2nd-edition"
 hersteller: "LG"
 name: "Watch Urbane 2<sup>nd</sup> Edition"
-date: 
+date:
 case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,38” P-OLED Display"

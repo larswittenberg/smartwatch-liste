@@ -1,5 +1,5 @@
 ---
-title: Pebble Time - Technische Daten
+title: Pebble Time
 id: "pebble-time"
 hersteller: "Pebble"
 name: "Time"

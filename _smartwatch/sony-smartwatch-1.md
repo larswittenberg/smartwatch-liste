@@ -1,5 +1,5 @@
 ---
-title: Sony SmartWatch 1 - Technische Daten
+title: Sony SmartWatch 1
 id: "sony-smartwatch-1"
 hersteller: "Sony"
 name: "SmartWatch 1"

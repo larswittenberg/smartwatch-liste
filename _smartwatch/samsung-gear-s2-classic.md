@@ -1,5 +1,5 @@
 ---
-title: Samsung Gear S2 Classic - Technische Daten
+title: Samsung Gear S2 Classic
 id: "samsung-gear-s2-classic"
 hersteller: "Samsung"
 name: "Gear S2 Classic"

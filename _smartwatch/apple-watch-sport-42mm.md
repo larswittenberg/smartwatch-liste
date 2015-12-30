@@ -1,5 +1,5 @@
 ---
-title: Apple Watch Sport (42mm) - Technische Daten
+title: Apple Watch Sport (42mm)
 id: "apple-watch-sport-42mm"
 hersteller: "Apple"
 name: "Watch Sport (42mm)"

@@ -1,5 +1,5 @@
 ---
-title: Fossil Q Founder - Technische Daten
+title: Fossil Q Founder
 id: "fossil-q-founder"
 hersteller: "Fossil"
 name: "Q Founder"

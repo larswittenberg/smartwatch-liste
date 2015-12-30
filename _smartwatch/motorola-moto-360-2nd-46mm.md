@@ -1,5 +1,5 @@
 ---
-title: Motorola Moto 360 2nd 46mm - Technische Daten
+title: Motorola Moto 360 2nd 46mm
 id: "motorola-moto-360-2nd-46mm"
 hersteller: "Motorola"
 name: "Moto 360 2<sup>nd</sup> (46mm)"

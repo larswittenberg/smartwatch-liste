@@ -1,5 +1,5 @@
 ---
-title: Pebble Steel - Technische Daten
+title: Pebble Steel
 id: "pebble-steel"
 hersteller: "Pebble"
 name: "Steel"

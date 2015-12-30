@@ -1,5 +1,5 @@
 ---
-title: Sony SmartWatch 3 - Technische Daten
+title: Sony SmartWatch 3
 id: "sony-smartwatch-3"
 hersteller: "Sony"
 name: "SmartWatch 3"

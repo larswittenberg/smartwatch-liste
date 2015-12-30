@@ -1,5 +1,5 @@
 ---
-title: Samsung Gear S - Technische Daten
+title: Samsung Gear S
 id: "samsung-gear-s"
 hersteller: "Samsung"
 name: "Gear S"

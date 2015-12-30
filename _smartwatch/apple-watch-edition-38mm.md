@@ -1,5 +1,5 @@
 ---
-title: Apple Watch Edition (38mm) - Technische Daten
+title: Apple Watch Edition (38mm)
 id: "apple-watch-edition-38mm"
 hersteller: "Apple"
 name: "Watch Edition (38mm)"

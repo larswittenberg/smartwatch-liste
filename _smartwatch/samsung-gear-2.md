@@ -1,5 +1,5 @@
 ---
-title: Samsung Gear 2  - Technische Daten
+title: Samsung Gear 2 
 id: "samsung-gear-2"
 hersteller: "Samsung"
 name: "Gear 2"

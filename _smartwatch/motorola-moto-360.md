@@ -1,5 +1,5 @@
 ---
-title: Motorola Moto 360 - Technische Daten
+title: Motorola Moto 360
 id: "motorola-moto-360"
 hersteller: "Motorola"
 name: "Moto 360"
