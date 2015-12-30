@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "watchOS"
 display: "1,5” Retina OLED"
 aufloesung: "312 × 390 Pixel, 326 ppi"
-akku: "246 mAh"
+akku: 246
 prozessor: "Apple S1"
 ram: "512 MB"
 interner_speicher: "8 GB"

@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,5 Zoll LPTS LCD"
 aufloesung: "360 x 360 Pixel, 240 ppi"
-akku: "410 mAh"
+akku: 410
 prozessor: "1,6 GHz Dual-Core Intel Atom Z34XX"
 ram: "1 GB"
 interner_speicher: "4 GB"

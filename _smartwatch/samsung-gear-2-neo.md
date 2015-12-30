@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Tizen OS"
 display: "1,63 Zoll Super AMOLED"
 aufloesung: "320 x 320 Pixel"
-akku: "300 mAh"
+akku: 300
 prozessor: "1 GHz Dual Core"
 ram: "1 GB"
 interner_speicher: "4 GB"

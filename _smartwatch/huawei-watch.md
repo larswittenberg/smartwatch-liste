@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,4”-AMOLED \n Saphir-Kristall-Glas"
 aufloesung: "400 x 400 Pixel, 286 ppi"
-akku: "300 mAh"
+akku: 300
 prozessor: "1,2 GHz Qualcomm Snapdragon<sup>TM</sup>"
 ram: "512 MB"
 interner_speicher: "8 GB"

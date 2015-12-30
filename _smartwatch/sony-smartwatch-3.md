@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,68” LCD-Display"
 aufloesung: "320 x 320 Pixel, 269 ppi"
-akku: "420 mAh"
+akku: 420
 prozessor: "1,2 GHz Quad ARM<sup>®</sup> Cortex<sup>TM</sup> A7"
 ram: "512 MB"
 interner_speicher: "4 GB"

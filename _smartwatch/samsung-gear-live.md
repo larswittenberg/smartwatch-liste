@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Android Wear"
 display: "1,63” SuperAMOLED"
 aufloesung: "320 x 320 Pixel, 278 ppi"
-akku: "300 mAh"
+akku: 300
 prozessor: "1,2 GHz"
 ram: "512 MB"
 interner_speicher: "4 GB"

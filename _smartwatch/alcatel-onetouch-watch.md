@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Proprietär"
 display: "1.22“ IPS, TFT LCD mit 262 k Farben"
 aufloesung: "240 x 204 Pixel, 278 ppi"
-akku: "210 mAh"
+akku: 210
 prozessor: "STM 429"
 ram: "?"
 interner_speicher: "?"

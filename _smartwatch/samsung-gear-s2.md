@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Tizen OS"
 display: "1,2” Circular Super AMOLED"
 aufloesung: "360 x 360 Pixel, 302 ppi"
-akku: "250 mAh"
+akku: 250
 prozessor: "1,0 GHz Dual-Core-Prozessor"
 ram: "512 MB"
 interner_speicher: "4 GB"

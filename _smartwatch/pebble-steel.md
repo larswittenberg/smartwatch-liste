@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Pebble OS"
 display: "1.26” e-paper Display"
 aufloesung: "144 × 168 Pixel, 176 ppi"
-akku: "130 mAh"
+akku: 130
 prozessor: "STM32F205RE Cortex M3 CPU"
 ram: "128 KB"
 interner_speicher: "?"

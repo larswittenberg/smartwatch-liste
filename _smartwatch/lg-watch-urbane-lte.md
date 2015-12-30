@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "LG Wearable Platform"
 display: "1,3” P-OLED Display"
 aufloesung: "320 x 320 Pixel, 245 ppi"
-akku: "700 mAh"
+akku: 700
 prozessor: "1,2 GHz  (Qualcomm Snapdragon<sup>TM</sup> 400)"
 ram: "1 GB"
 interner_speicher: "4 GB"

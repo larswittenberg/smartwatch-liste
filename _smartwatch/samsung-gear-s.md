@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Tizen OS"
 display: "2” SuperAMOLED"
 aufloesung: "360 x 480 Pixel, 300 ppi"
-akku: "300 mAh"
+akku: 300
 prozessor: "Dual-core Snapdragon 400 (1,0 GHz)"
 ram: "512 MB"
 interner_speicher: "4 GB"

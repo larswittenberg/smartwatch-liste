@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,56” LCD mit Hintergrundbeleuchtung"
 aufloesung: "320 x 290 Pixel, 205 ppi"
-akku: "320 mAh"
+akku: 320
 prozessor: "TI OMAP<sup>TM</sup> 3"
 ram: "512 MB"
 interner_speicher: "4 GB"

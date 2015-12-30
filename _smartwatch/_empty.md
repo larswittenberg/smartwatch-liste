@@ -8,7 +8,7 @@ case_type: ""
 betriebssystem: ""
 display: ""
 aufloesung: ""
-akku: ""
+akku: 
 prozessor: ""
 ram: ""
 interner_speicher: ""

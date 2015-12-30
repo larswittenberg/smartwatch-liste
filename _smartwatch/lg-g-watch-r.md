@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,3\" Rundes P-OLED Display"
 aufloesung: "320 x 320 Pixel, 245 ppi"
-akku: "410 mAh"
+akku: 410
 prozessor: "1,2 GHz (Qualcomm Snapdragon<sup>TM</sup> 400)"
 ram: "512 MB"
 interner_speicher: "4 GB"

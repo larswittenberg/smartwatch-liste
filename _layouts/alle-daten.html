@@ -48,7 +48,7 @@ layout: default
                   <td class="feature__data">{% if smartwatch.preis and smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
                   <td class="feature__data white-space--wrap">{{ smartwatch.display | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.aufloesung | newline_to_br }}</td>
-                  <td class="feature__data">{{ smartwatch.akku | newline_to_br }}</td>
+                  <td class="feature__data">{% if smartwatch.akku and smartwatch.akku != "?" and smartwatch.akku != "1,4 Wh (Batterie)" %}{{ smartwatch.akku }} mAh{% else %}{{ smartwatch.akku }}{% endif %}</td>
                   <td class="feature__data">{{ smartwatch.prozessor | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.ram | newline_to_br }}</td>
                   <td class="feature__data">{{ smartwatch.interner_speicher | newline_to_br }}</td>

@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Android Wear"
 display: "1,38” P-OLED Display"
 aufloesung: "480 x 480 Pixel, 348 ppi"
-akku: "570 mAh"
+akku: 570
 prozessor: "1,2 GHz (Qualcomm Snapdragon<sup>TM</sup> 400)"
 ram: "768 MB"
 interner_speicher: "4 GB"

@@ -74,7 +74,7 @@ layout: default
               </tr>
               <tr>
                 <td class="feature__name" data-th="Akku">Akku</td>
-                <td class="feature__data">{{ page.akku | newline_to_br }}</td>
+                <td class="feature__data">{% if page.akku and page.akku != "?" and page.akku != "1,4 Wh (Batterie)" %}{{ page.akku }} mAh{% else %}{{ page.akku }}{% endif %}</td>
               </tr>
               <tr>
                 <td class="feature__name" data-th="Prozessor">Prozessor</td>

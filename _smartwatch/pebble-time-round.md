@@ -8,7 +8,7 @@ case_type: "rund"
 betriebssystem: "Pebble OS"
 display: "64 farbiges e-paper Display"
 aufloesung: "180 x 180 Pixel, 191 ppi"
-akku: "150 mAh"
+akku: 150
 prozessor: "100 MHz, Cortex-M4"
 ram: "?"
 interner_speicher: "16 MB"

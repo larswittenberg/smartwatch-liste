@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Android 4.3 / \n Tizen OS"
 display: "1,63” SuperAMOLED"
 aufloesung: "320 x 320 Pixel, 275 ppi"
-akku: "315 mAh"
+akku: 315
 prozessor: "Single-core 800 MHz ARM"
 ram: "512 MB"
 interner_speicher: "4 GB"

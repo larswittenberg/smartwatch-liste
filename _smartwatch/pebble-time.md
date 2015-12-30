@@ -8,7 +8,7 @@ case_type: "eckig"
 betriebssystem: "Pebble OS"
 display: "1,25” 64 farbiges e-paper Display"
 aufloesung: "144 x 168 Pixel, 182 ppi"
-akku: "150 mAh"
+akku: 150
 prozessor: "100 MHz, Cortex-M4"
 ram: "?"
 interner_speicher: "16 MB"
