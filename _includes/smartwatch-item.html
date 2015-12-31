@@ -11,12 +11,12 @@
               {% if smartwatch.img_src_2x != '' %}
               <p class="card__image-desc">
                 Foto:
-                {% if smartwatch.img_author_name != '' %}
+                {% if smartwatch.img_author_name and smartwatch.img_author_name != '' %}
                   <a href="{{ smartwatch.img_src_url }}">{{ smartwatch.img_author_name }}</a>
-                {% else %}
+                {% elsif smartwatch.img_src_name and smartwatch.img_src_name != '' %}
                   <a href="{{ smartwatch.img_src_url }}">{{ smartwatch.img_src_name }}</a>
                 {% endif %}
-                {% if smartwatch.img_license_url != '' %}
+                {% if smartwatch.img_license_url and smartwatch.img_license_url != '' %}
                   / Lizenz <a href="{{ smartwatch.img_license_url }}">{{ smartwatch.img_license_name }}</a>
                 {% endif %}
               </p>

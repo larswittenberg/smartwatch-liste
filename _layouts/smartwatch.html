@@ -16,22 +16,20 @@ layout: default
           <div class="card__image-wrapper">
 {% if page.img_src_2x != '' %}
             <img src="../img/{{ page.img_src_2x }}" srcset="../img/{{ page.img_src_2x }} 2x" alt="{{ page.hersteller }} {{ page.name }}" class="card__image" width="390">
-{% else %}
-            <img src="../img/dummy-820.jpg" alt="Platzhalter" class="card__image" width="390">
-{% endif %}
-            {% if page.img_src_2x != '' %}
             <p class="card__image-desc">
               Foto:
-              {% if page.img_author_name != '' %}
+              {% if page.img_author_name and page.img_author_name != '' %}
                 <a href="{{ page.img_src_url }}">{{ page.img_author_name }}</a>
-              {% else %}
+              {% elsif page.img_src_name and page.img_src_name != '' %}
                 <a href="{{ page.img_src_url }}">{{ page.img_src_name }}</a>
               {% endif %}
-              {% if page.img_license_url != '' %}
+              {% if page.img_license_url and page.img_license_url != '' %}
                 / Lizenz <a href="{{ page.img_license_url }}">{{ page.img_license_name }}</a>
               {% endif %}
             </p>
-            {% endif %}
+{% else %}
+            <img src="../img/dummy-820.jpg" alt="Platzhalter" class="card__image" width="390">
+{% endif %}
           </div>
           <div class="card__content">
             {{ content }}
