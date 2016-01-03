@@ -10,7 +10,7 @@ display: "1,25” 64 farbiges e-paper Display"
 aufloesung: "144 x 168 Pixel, 182 ppi"
 akku: 150
 prozessor: "100 MHz, Cortex-M4"
-ram: "?"
+ram: "64 KB"
 interner_speicher: "16 MB"
 bluetooth: "Bluetooth 4.0"
 sensoren: "3 Achsen Beschleunigungssensor, Kompass"
