@@ -3,7 +3,7 @@ title:
 id: ""
 hersteller: ""
 name: ""
-date: 2015-09-01 00:00:00 +00:00
+date: 2016-01-01 00:00:00 +00:00
 case_type: ""
 betriebssystem: ""
 display: ""

@@ -18,7 +18,7 @@ sensoren: "?"
 gewicht: "60 g"
 abmessungen: "49 x 41 mm"
 ip_zertifikat: "IP67"
-sonstiges: "Krone \n Kompatibel mit: Android und iOS"
+sonstiges: "Krone"
 
 kompatibilitaet_android: "ja"
 kompatibilitaet_android-version: "4.3+"

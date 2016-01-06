@@ -34,6 +34,9 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ## Updates
 
+### 06.01.2016
+* Neue Smartwatch: Casio WSD-F10
+
 ### 29.12.2015
 * Daten Update: Pulsmesser und GPS extra aufgeführt
 * Filter-Option für Pulsmesser und GPS
