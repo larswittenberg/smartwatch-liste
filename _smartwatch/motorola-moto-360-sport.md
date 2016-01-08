@@ -36,8 +36,8 @@ link_name: "motorola.com"
 link_url: "http://www.motorola.com/us/products/moto-360-sport"
 
 preis: 299
-shop_link_name: ""
-shop_link_url: ""
+shop_link_name: "motorola.de"
+shop_link_url: "http://www.motorola.de/products/moto-360-sport"
 ---
 
 ### Links
