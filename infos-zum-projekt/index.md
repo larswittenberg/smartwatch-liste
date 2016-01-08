@@ -36,6 +36,7 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ### 08.01.2016
 * Neue Smartwatch: Fitbit Blaze
+* Neue Smartwatch: Garmin tactix Bravo
 
 ### 06.01.2016
 * Neue Smartwatch: Casio WSD-F10
