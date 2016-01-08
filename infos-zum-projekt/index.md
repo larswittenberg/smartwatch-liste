@@ -34,6 +34,9 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ## Updates
 
+### 08.01.2016
+* Neue Smartwatch: Fitbit Blaze
+
 ### 06.01.2016
 * Neue Smartwatch: Casio WSD-F10
 
