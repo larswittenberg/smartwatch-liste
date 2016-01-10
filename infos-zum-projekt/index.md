@@ -34,6 +34,9 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 ## Updates
 
+### 10.01.2016
+* LG Watch Urbane 2<sup>nd</sup> Edition gelöscht
+
 ### 08.01.2016
 * Neue Smartwatch: Fitbit Blaze
 * Neue Smartwatch: Garmin tactix Bravo
