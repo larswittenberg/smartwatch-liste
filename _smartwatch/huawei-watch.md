@@ -19,7 +19,7 @@ sensoren: "6-Achsen Sensor, Barometer, Vibrationsmotor"
 gewicht: "60,5 g"
 abmessungen: "42 mm Durchmesser, 11,3 mm Höhe"
 ip_zertifikat: "IP67"
-sonstiges: "intuitive Drucktaste \n 3 Farben: Gold, Silber und Schwarz"
+sonstiges: "Lautsprecher, intuitive Drucktaste \n 3 Farben: Gold, Silber und Schwarz"
 
 kompatibilitaet_android: "ja"
 kompatibilitaet_android-version: "4.3+"
@@ -47,3 +47,4 @@ shop_link_url: "http://www.amazon.de/Huawei-Watch-Classic-Lederband-silber/dp/B0
 * [heise.de - IFA 2015: Smartwatch Huawei Watch im Hands-On](http://www.heise.de/newsticker/meldung/IFA-2015-Smartwatch-Huawei-Watch-im-Hands-On-2806224.html#mobile_detect_force_desktop)
 * [stadt-bremerhaven.de - Huawei Watch Testbericht: Das Schmuckstück unter den Android Wear-Smartwatches](http://stadt-bremerhaven.de/huawei-watch-testbericht-das-schmuckstueck-unter-den-android-wear-smartwatches/)
 * [androidpit.de - Huawei Watch im Test: Luxuriöse Smartwatch mit Macken](https://www.androidpit.de/huawei-watch-test)
+* [smartwatch.de - Android Wear unterstützt bald endlich Lautsprecher](http://www.smartwatch.de/news/android-wear-unterstuetzt-bald-endlich-lautsprecher/)

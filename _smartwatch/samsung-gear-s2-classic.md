@@ -20,7 +20,7 @@ sensoren: "Beschleunigungsmesser, Gyroscope, Umgebungslichtsensor, Barometer"
 gewicht: "42 g"
 abmessungen: "39,9 × 43,6 × 11,4 mm"
 ip_zertifikat: "IP68"
-sonstiges: "2 Tasten, drehbare Lünette, auch mit 3G via embedded SIM erhältich (nicht in Deutschland)"
+sonstiges: "2 Tasten, drehbare Lünette, weitere Gehäuse in 18-Karat Rosegold und Platin, auch mit 3G via embedded SIM erhältich (nicht in Deutschland), "
 
 kompatibilitaet_android: "ja"
 kompatibilitaet_android-version: "4.4+"
@@ -52,3 +52,4 @@ Laut [manager-magazin.de](http://www.manager-magazin.de/lifestyle/hardware/samsu
 * [youtube.com - Preview - Samsung Gear S2](https://www.youtube.com/watch?v=nWG5GGpXCmc)
 * [stadt-bremerhaven.de - Samsung Gear S2 und Gear S2 Classic ausprobiert: So muss eine Smartwatch sein!](http://stadt-bremerhaven.de/samsung-gear-s2-und-gear-s2-classic-ausprobiert-so-muss-eine-smartwatch-sein/)
 * [Samsung Gear S2 wohl bald zu Apple iOS kompatibel](http://stadt-bremerhaven.de/samsung-gear-s2-wohl-bald-zu-apple-ios-kompatibel/)
+* [smartwatch.de - Samsung stellt zwei neue Varianten der Gear S2 classic vor](http://www.smartwatch.de/news/ces-2016-samsung-stellt-zwei-neue-varianten-der-gear-s2-classic-vor/)
