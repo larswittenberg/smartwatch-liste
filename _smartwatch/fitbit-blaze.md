@@ -46,3 +46,4 @@ shop_link_url: "https://www.fitbit.com/de/blaze"
 
 ### Links
 * [mobilegeeks.de - Fitbit stellt mit der Blaze seine erste Smartwatch vor](http://www.mobilegeeks.de/news/fitbit-blaze-smartwatch/)
+* [stadt-bremerhaven.de - Fitbit präsentiert seinen neuen Fitnesstracker Blaze](http://stadt-bremerhaven.de/fitbit-praesentiert-seinen-neuen-fitnesstracker-blaze/)
