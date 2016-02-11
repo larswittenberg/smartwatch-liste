@@ -9,6 +9,7 @@ twitter_username: smartwatchliste
 github_username: larswittenberg
 timezone: Europe/Berlin
 
+future: true # Build Items with a future date
 
 markdown: kramdown
 sass:
