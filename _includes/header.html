@@ -21,7 +21,8 @@
         <li class="menu__listitem visible-xs-block"><a href="{{ site.baseurl }}/infos-zum-projekt">Infos zum Projekt</a></li>
         <li class="menu__listitem visible-xs-block"><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
         <li class="visible-xs-block"><hr></li>
-        {% for smartwatch in site.smartwatch %}
+        {% assign items = site.smartwatch | sort: "hersteller" %}
+        {% for smartwatch in items %}
         <li class="menu__listitem"><a href="{{ site.baseurl }}/{{ smartwatch.id }}">{{ smartwatch.hersteller }} {{ smartwatch.name }}</a></li>{% endfor %}
       </ul>
     </nav>
