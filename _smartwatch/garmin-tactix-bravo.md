@@ -3,7 +3,7 @@ title: Garmin tactix Bravo
 id: "garmin-tactix-bravo"
 hersteller: "Garmin"
 name: "tactix Bravo"
-date: 
+date: 2016-03-01 00:00:00 +00:00
 case_type: "rund"
 betriebssystem: "Proprietär"
 display: "1,2” Chroma Farbdisplay"
