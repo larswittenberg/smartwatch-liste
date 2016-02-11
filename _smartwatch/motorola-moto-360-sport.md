@@ -28,7 +28,7 @@ kompatibilitaet_ios: "ja"
 kompatibilitaet_ios-version: "8.2+"
 
 img_src: "dummy-410.jpg"
-img_src_2x: "motorola-moto-360-sport-820.jpg"
+img_src_2x: "motorola-moto-360-sport-820.jpg?v2"
 img_src_url: "http://motorola-blog.blogspot.de/2015/09/the-new-moto-360-collection-giving-you.html"
 img_src_name: "Motorola"
 
