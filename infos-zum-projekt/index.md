@@ -35,7 +35,7 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 ## Updates
 
 ### 03.03.2016
-* Pebble Preis Updates
+* Preis Updates bei den Pebble Modellen
 
 ### 11.02.2016
 * Bilder hinzugefügt: Fitbit Blaze, Garmin tactix Bravo, Casio WSD-F10
