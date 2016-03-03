@@ -32,8 +32,8 @@ img_src_name: "Pebble"
 link_name: "getpebble.com"
 link_url: "https://pebble.com/pebble-time-round-smartwatch-features"
 
-preis: 299.99
+preis: 229.95
 shop_link_name: "getpebble.com"
-shop_link_url: "https://getpebble.com/shop/pebble_time_round"
+shop_link_url: "https://www.pebble.com/buy-pebble-time-round-smartwatch"
 ---
 
