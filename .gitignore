@@ -8,3 +8,16 @@ gulp/node_modules/*
 Thumbs.db
 .sass-cache
 _site
+
+
+node_modules/*
+gulp/node_modules/*
+dist/css/**/*.map
+*.DS_Store
+.DS_Store
+*Thumbs.db
+Thumbs.db
+
+
+
+version2/smartwatch-liste/node_modules/*
