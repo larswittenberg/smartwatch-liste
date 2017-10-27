@@ -1,0 +1,25 @@
+---
+layout: default
+title: Smartwatch Modelle aus dem Jahr 2015 - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle aus dem Jahr 2015</h2>
+        <p>Die folgenden Smartwatch-Modelle sind 2015 auf den Markt gekommen.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% capture this_year %}{{ smartwatch.date | date: "%Y" }}{% endcapture %}
+{% if this_year == "2015" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+

@@ -1,0 +1,192 @@
+//*******************************************************************************
+// HELPERS
+//*******************************************************************************
+
+//
+// Colors - Text
+//
+.text-color--grey-2 { color: $grey-2; }
+
+
+
+//
+// Spacer
+//
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+
+
+//
+// Hyphenation
+//
+.hyphen {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  word-wrap: break-word;
+}
+
+
+
+//
+// Centred Text
+//
+.text-center {
+  text-align: center;
+}
+
+
+
+//
+// Text Decoration Unterline
+//
+.text-decoration--underline {
+  text-decoration: underline;
+}
+
+
+
+//
+// Text Uppercase + Letter-Spacing
+//
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+
+
+//
+// Clearfix
+//
+.cf {
+  @include clearfix();
+}
+
+
+
+//
+// Only display content to screen readers
+// See: http://a11yproject.com/posts/how-to-hide-content/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+
+
+//
+// Showing & Hiding Content Helpers
+//
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg,
+.visible-xl {
+  display: none !important;
+}
+
+@media (max-width: $breakpoint-sm - 1px) {
+  .visible-xs { display: block !important; }
+  .hidden-xs  { display: none !important; }
+}
+
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md - 1px) {
+  .visible-sm { display: block !important; }
+  .hidden-sm  { display: none !important; }
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg - 1px) {
+  .visible-md { display: block !important; }
+  .hidden-md  { display: none !important; }
+}
+
+@media (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl - 1px) {
+  .visible-lg { display: block !important; }
+  .hidden-lg  { display: none !important; }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .visible-xl { display: block !important; }
+  .hidden-xl  { display: none !important; }
+}
+
+
+
+
+//
+// Grid Displayer
+//
+@if $showGridDisplayer == true {
+
+  #grid-displayer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: padding-box;
+    -moz-box-sizing: padding-box;
+    box-sizing: padding-box;
+    pointer-events: none;
+    z-index: -10;
+  }
+
+  #grid-displayer .gd-container,
+  #grid-displayer .gd-row,
+  #grid-displayer .gd-column {
+    height: 100%;
+  }
+
+  #grid-displayer .gd-row.row {
+    @include breakpoint(sm) {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+
+  #grid-displayer .gd-column {
+    border-width: 0px 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 0px;
+    outline: blue solid 1px;
+    opacity: 0.06;
+    background-color: blue;
+    float: left;
+    width: 8.33333%;
+
+    @include breakpoint(sm) {
+      border-width: 0px 20px;
+      width: 60px;
+    }
+
+    @include breakpoint(md) {
+      width: 80px;
+    }
+
+    @include breakpoint(lg) {
+      width: 100px;
+    }
+
+    @include breakpoint(xl) {
+      width: 120px;
+    }
+
+  }
+}
+
+@if $showGridDisplayer == false {
+  #grid-displayer {
+    display: none !important;
+  }
+}
+
+

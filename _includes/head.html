@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }} | {{ site.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Lars Wittenberg">
+  <meta name="theme-color" content="#009688">
+  <meta property="og:site_name" content="smartwatch-liste.de">
+  <meta property="og:description" content="Smartwatch Markt-Übersicht">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@smartwatchliste">
+  <meta name="twitter:title" content="Smartwatch Markt-Übersicht">
+  <meta name="twitter:description" content="Smartwatch Übersicht">
+  <meta name="twitter:url" content="http://www.smartwatch-liste.de/">
+  <meta name="twitter:image" content="">
+  <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="shortcut icon" href="{{ "/favicon.png" | prepend: site.baseurl }}">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+  <script src="/js/ext/lazysizes.min.js" async=""></script>
+  <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/ext/respond.min.js"></script>
+  <![endif]-->
+</head>

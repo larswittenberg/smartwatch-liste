@@ -1,0 +1,23 @@
+---
+layout: default
+title: Smartwatch Modelle mit eckigem Display - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle mit eckigem Display</h2>
+        <p>Die folgenden Smartwatch-Modelle haben ein eckiges Display.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.case_type == "eckig" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>

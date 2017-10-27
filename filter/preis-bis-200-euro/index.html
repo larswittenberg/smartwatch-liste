@@ -1,0 +1,24 @@
+---
+layout: default
+title: Smartwatch Modelle bis 200 € - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Smartwatch Modelle bis 200 €</h2>
+        <p>Die folgenden Smartwatch-Modelle kosten weniger als 200 €.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.preis <= 200 %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+

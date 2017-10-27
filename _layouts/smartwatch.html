@@ -1,0 +1,172 @@
+---
+layout: default
+---
+
+  <div class="container fixed-header-spacer">
+    <div class="cardpage">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="cardpage__title">{{ page.hersteller }} {{ page.name }} - Technische Daten</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+          <div class="card__image-wrapper">
+{% if page.img_src_2x != '' %}
+            <img src="../img/{{ page.img_src_2x }}" srcset="../img/{{ page.img_src_2x }} 2x" alt="{{ page.hersteller }} {{ page.name }}" class="card__image" width="390">
+            <p class="card__image-desc">
+              Foto:
+              {% if page.img_author_name and page.img_author_name != '' %}
+                <a href="{{ page.img_src_url }}">{{ page.img_author_name }}</a>
+              {% elsif page.img_src_name and page.img_src_name != '' %}
+                <a href="{{ page.img_src_url }}">{{ page.img_src_name }}</a>
+              {% endif %}
+              {% if page.img_license_url and page.img_license_url != '' %}
+                / Lizenz <a href="{{ page.img_license_url }}">{{ page.img_license_name }}</a>
+              {% endif %}
+            </p>
+{% else %}
+            <img src="../img/dummy-820.jpg" alt="Platzhalter" class="card__image" width="390">
+{% endif %}
+          </div>
+          <div class="card__content">
+            {{ content }}
+          </div>
+        </div>
+        <div class="col-md-5">
+          <table class="table feature__table">
+            <tbody>
+              <tr>
+                <td class="feature__name" data-th="Markteinführung">Markteinführung</td>
+                {% if page.date %}
+                <td class="feature__data">{{ page.date | date: "%m / %Y" }}</td>
+                {% else %}
+                <td class="feature__data">unbekannt</td>
+                {% endif %}
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Betriebssystem">Betriebs&shy;system</td>
+                <td class="feature__data">{{ page.betriebssystem | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Kompatibilität">Kompatibilität</td>
+                <td class="feature__data">
+              {% if page.kompatibilitaet_android or page.kompatibilitaet_ios %}
+                  {% if page.kompatibilitaet_android == "ja" %}Android {{ page.kompatibilitaet_android-version }} {% endif %}
+                  {% if page.kompatibilitaet_android == "ja" and page.kompatibilitaet_ios == "ja" %} / {% endif %}
+                  {% if page.kompatibilitaet_ios == "ja" %}iOS {{ page.kompatibilitaet_ios-version }} {% endif %}
+              {% else %}
+                  ?
+              {% endif %}
+                </td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Display">Display</td>
+                <td class="feature__data">{{ page.display | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Auflösung">Auflösung</td>
+                <td class="feature__data">{{ page.aufloesung | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Akku">Akku</td>
+                <td class="feature__data">{% if page.akku and page.akku != "?" and page.akku != "1,4 Wh (Batterie)" %}{{ page.akku }} mAh{% else %}{{ page.akku }}{% endif %}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Prozessor">Prozessor</td>
+                <td class="feature__data">{{ page.prozessor | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="RAM">RAM</td>
+                <td class="feature__data">{{ page.ram }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Interner Speicher">Interner Speicher</td>
+                <td class="feature__data">{{ page.interner_speicher }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="WLAN">WLAN</td>
+                <td class="feature__data">{% if page.wlan and page.wlan != "" %}{{ page.wlan }}{% else if %}-{% endif %}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Bluetooth">Bluetooth</td>
+                <td class="feature__data">{{ page.bluetooth }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Konnektivität">Konnektivität</td>
+                <td class="feature__data">{% if page.konnektivitaet and page.konnektivitaet != "" %}{{ page.konnektivitaet }}{% else if %}-{% endif %}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Pulsmesser">Pulsmesser</td>
+                <td class="feature__data">{% if page.pulsmesser and page.pulsmesser != "" %}{{ page.pulsmesser }}{% else if %}-{% endif %}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="GPS">GPS</td>
+                <td class="feature__data">{% if page.gps and page.gps != "" %}{{ page.gps }}{% else if %}-{% endif %}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Sensoren">Sensoren</td>
+                <td class="feature__data">{{ page.sensoren | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Gewicht">Gewicht</td>
+                <td class="feature__data">{{ page.gewicht | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Abmessungen">Abmessungen</td>
+                <td class="feature__data">{{ page.abmessungen | newline_to_br }}</td>
+              </tr>
+              <tr>
+                <td class="feature__name" data-th="Wassergeschützt">Wasser&shy;geschützt</td>
+                <td class="feature__data">{% if page.ip_zertifikat and page.ip_zertifikat != "?" %}{{ page.ip_zertifikat }}-zertifiziert{% else %}?{% endif %}</td>
+              </tr>
+              {% if page.sonstiges != '' %}
+              <tr>
+                <td class="feature__name" data-th="Sonstiges">Sonstiges</td>
+                <td class="feature__data">{{ page.sonstiges | newline_to_br }}</td>
+              </tr>
+              {% endif %}
+              {% if page.link_url %}
+              <tr>
+                <td class="feature__name" data-th="Links">Link</td>
+                <td class="feature__data">
+                  <a href="{{ page.link_url }}" class="card__action-link" target="_blank">{{ page.link_name }}</a>
+                  {% if page.link_url_2 %}
+                    <br><a href="{{ page.link_url_2 }}" class="card__action-link" target="_blank">{{ page.link_name_2 }}</a>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endif %}
+              <tr>
+                <td class="feature__name" data-th="Preis">Preis (ab)</td>
+                <td class="feature__data">{% if page.preis and page.preis != "" %}{{ page.preis }} €{% else %}?{% endif %}</td>
+              </tr>
+              {% if page.preis and page.preis != "" %}
+              <tr>
+                <td class="feature__data text-center" colspan="2">
+                  {% if page.shop_link_name != '' %}
+                    {% if page.shop_link_name == 'amazon.de' %}
+                      <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf amazon.de Kaufen <small>*</small></a>
+                      <br><br><small class="text-color--grey-2 text-small">* Affiliate-Link</small>
+                    {% else %}
+                      <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf {{ page.shop_link_name }} Kaufen</a>
+                    {% endif %}
+                  {% endif %}
+                </td>
+              </tr>
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+
+        </div>
+      </div>
+
+    </div>
+  </div>

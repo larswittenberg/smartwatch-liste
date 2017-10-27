@@ -1,0 +1,24 @@
+---
+layout: default
+title: Kompatibel mit iPhone und iOS - Smartwatch Vergleich
+---
+
+    <div class="container fixed-header-spacer">
+      <div class="jumbotron">
+        <h2>Kompatibel mit dem iPhone / iOS</h2>
+        <p>Die folgenden Smartwatch-Modelle sind mit dem iPhone / iOS kompatibel.</p>
+{% include filter.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row smartwatch-list">
+{% assign items = site.smartwatch | sort: "date" | reverse %}
+{% for smartwatch in items %}
+{% if smartwatch.kompatibilitaet_ios == "ja" %}
+  {% include smartwatch-item.html %}
+{% endif %}
+{% endfor %}
+      </div>
+    </div>
+
