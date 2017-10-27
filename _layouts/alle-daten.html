@@ -42,7 +42,7 @@ layout: default
                 <tr data-hersteller="{{ smartwatch.hersteller }}" data-date="{{ smartwatch.date | date: "%Y" }}">
                   <td class="feature__data">{{ forloop.index }}</td>
                   <td class="feature__data">{{ smartwatch.hersteller }}</td>
-                  <td class="feature__data"><a href="{{ site.baseurl }}/{{ smartwatch.id }}">{{ smartwatch.name }}</a></td>
+                  <td class="feature__data"><a href="{{ smartwatch.id }}">{{ smartwatch.name }}</a></td>
                   <td class="feature__data">{{ smartwatch.date | date: "%m / %Y" }}</td>
                   <td class="feature__data">{{ smartwatch.betriebssystem | newline_to_br }}</td>
                   <td class="feature__data">{% if smartwatch.preis and smartwatch.preis != "" %}{{ smartwatch.preis | newline_to_br }} €{% else %}?{% endif %}</td>
