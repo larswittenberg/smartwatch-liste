@@ -34,9 +34,6 @@ img_src_name: "Motorola"
 link_name: "motorola.de"
 link_url: "https://www.motorola.de/products/moto-360"
 
-preis: 299
-shop_link_name: "motorola.de"
-shop_link_url: "http://www.motorola.de/products/moto-360"
 ---
 
 ### Links

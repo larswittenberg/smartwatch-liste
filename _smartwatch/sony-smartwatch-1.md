@@ -24,13 +24,9 @@ img_src_2x: "sony-smartwatch-820.jpg"
 img_src_url: "https://picasaweb.google.com/116497749681519397963"
 img_src_name: "Sony"
 
-link_name: "sonymobile.com"
-link_url: "http://www.sonymobile.com/global-en/products/accessories/smartwatch/specifications/#tabs"
 
 ---
 
 ### Links
 * [blogs.sonymobile.com](http://blogs.sonymobile.com/2012/01/12/amazing-extras-smartwatch-and-smart-wireless-headset-pro/)
 * [Video: Sony Smartwatch](https://www.youtube.com/watch?v=d7C-XuSEBPA)
-
-

@@ -28,7 +28,4 @@ img_src_name: "Sony"
 link_name: "sonymobile.com/de"
 link_url: "http://www.sonymobile.com/de/products/accessories/smartwatch-2-sw2/"
 
-preis: 97.72
-shop_link_name: "mindfactory.de"
-shop_link_url: "http://www.mindfactory.de/product_info.php/Sony-SmartWatch-2-SW2-Silicon-schwarz_956774.html"
 ---

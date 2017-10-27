@@ -1,5 +1,5 @@
 ---
-title: Samsung Gear 2 
+title: Samsung Gear 2
 id: "samsung-gear-2"
 hersteller: "Samsung"
 name: "Gear 2"
@@ -29,7 +29,4 @@ img_src_name: "Samsung"
 link_name: "http://stadt-bremerhaven.de/"
 link_url: "http://stadt-bremerhaven.de/mwc-2014-samsung-gear-2-und-gear-2-neo-offiziell-vorgestellt-erste-tizen-produkte/"
 
-preis: 254.85
-shop_link_name: "amazon.de"
-shop_link_url: "http://www.amazon.de/Samsung-Gear-Smartwatch-carcoal-schwarz/dp/B00IMCTP22/"
 ---

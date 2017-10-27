@@ -148,7 +148,7 @@ layout: default
                 <td class="feature__data text-center" colspan="2">
                   {% if page.shop_link_name != '' %}
                     {% if page.shop_link_name == 'amazon.de' %}
-                      <a href="{{ page.shop_link_url }}/?tag=smartwatchlis-21" class="btn btn-success" target="_blank">Auf amazon.de Kaufen <small>*</small></a>
+                      <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf amazon.de Kaufen <small>*</small></a>
                       <br><br><small class="text-color--grey-2 text-small">* Affiliate-Link</small>
                     {% else %}
                       <a href="{{ page.shop_link_url }}" class="btn btn-success" target="_blank">Auf {{ page.shop_link_name }} Kaufen</a>
@@ -170,4 +170,3 @@ layout: default
 
     </div>
   </div>
-

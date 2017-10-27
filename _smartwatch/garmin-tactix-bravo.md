@@ -35,9 +35,9 @@ img_src_name: "Garmin"
 link_name: "garmin.com/de-De"
 link_url: "https://buy.garmin.com/de-DE/DE/sport-training/wandern/tactix-bravo/prod543589.html"
 
-preis: 699.99
-shop_link_name: ""
-shop_link_url: ""
+preis: 599.99
+shop_link_name: "gramin.com"
+shop_link_url: "https://buy.garmin.com/de-DE/DE/p/543589"
 ---
 
 ### Links

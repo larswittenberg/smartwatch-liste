@@ -32,9 +32,9 @@ img_src_name: "Pebble"
 link_name: "getpebble.com"
 link_url: "https://getpebble.com/pebble_time"
 
-preis: 169.95
-shop_link_name: "getpebble.com"
-shop_link_url: "https://www.pebble.com/buy-pebble-time-smartwatch"
+preis: 77.49
+shop_link_name: "amazon.de"
+shop_link_url: "http://amzn.to/2zUyjji"
 ---
 
 

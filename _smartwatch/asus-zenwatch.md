@@ -26,9 +26,6 @@ img_src_name: "Asus"
 link_name: "asus.com"
 link_url: "http://www.asus.com/de/Phones/ASUS_ZenWatch_WI500Q/"
 
-preis: 199
-shop_link_name: "amazon.de"
-shop_link_url: "http://www.amazon.de/dp/B00UHXAR6C/"
 ---
 
 ### Links

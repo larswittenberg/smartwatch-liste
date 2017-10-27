@@ -35,7 +35,7 @@ img_src_name: "Fitbit"
 link_name: "fitbit.com/de"
 link_url: "https://www.fitbit.com/de/blaze"
 
-preis: 229.95
+preis: 199.95
 shop_link_name: "fitbit.com/de"
 shop_link_url: "https://www.fitbit.com/de/blaze"
 ---

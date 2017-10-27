@@ -39,7 +39,4 @@ img_license_url: "https://creativecommons.org/licenses/by-sa/2.0/deed.de"
 link_name: "apple.com/de"
 link_url: "http://www.apple.com/de/watch/"
 
-preis: 449
-shop_link_name: "apple.de"
-shop_link_url: "http://www.apple.com/de/shop/buy-watch/apple-watch-sport"
 ---

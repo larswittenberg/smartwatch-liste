@@ -33,9 +33,9 @@ img_src_name: "Fossil"
 link_name: "fossil.com/de"
 link_url: "https://www.fossil.com/de/de/search/fossil-q-founder-edelstahl-sku-ftw20002p.html"
 
-preis: 279
-shop_link_name: "otto.de"
-shop_link_url: "https://www.otto.de/p/fossil-q-smart-watch-q-founder-ftw20012-514643799#variationId=514640391"
+preis: 185
+shop_link_name: "amazon.de"
+shop_link_url: "http://amzn.to/2yYAFjh"
 ---
 
 ### Links

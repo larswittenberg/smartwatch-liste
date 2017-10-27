@@ -34,9 +34,6 @@ img_src_name: "Alcatel onetouch"
 link_name: "watch.alcatelonetouch.com"
 link_url: "http://watch.alcatelonetouch.com/"
 
-preis: 99
-shop_link_name: "saturn.de"
-shop_link_url: "http://www.saturn.de/de/product/_alcatel-ot-watch-1992767.html"
 ---
 
 ### Links

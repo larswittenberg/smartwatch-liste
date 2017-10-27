@@ -34,7 +34,4 @@ img_src_url: ""
 link_name: "apple.com/de"
 link_url: "http://www.apple.com/de/watch/"
 
-preis: 11000
-shop_link_name: "apple.de"
-shop_link_url: "http://www.apple.com/de/shop/buy-watch/apple-watch-edition"
 ---

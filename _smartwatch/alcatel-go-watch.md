@@ -33,7 +33,4 @@ img_src_name: "Alcatel onetouch"
 link_name: "gowatch.alcatelonetouch.com"
 link_url: "http://gowatch.alcatelonetouch.com/"
 
-preis: 124
-shop_link_name: "klepsoo.com"
-shop_link_url: "https://www.klepsoo.com/de/uhren/alcatel-onetouch/sm03-2aalwe7.html/"
 ---

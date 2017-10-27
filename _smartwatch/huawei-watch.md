@@ -34,9 +34,9 @@ img_src_name: "Huawei"
 link_name: "consumer.huawei.com/de"
 link_url: "http://consumer.huawei.com/de/accessories/features/huawei-watch-de.htm"
 
-preis: 379
+preis: 301.91
 shop_link_name: "amazon.de"
-shop_link_url: "http://www.amazon.de/Huawei-Watch-Classic-Lederband-silber/dp/B012U0A8BS/"
+shop_link_url: "http://amzn.to/2zJIneb"
 ---
 
 

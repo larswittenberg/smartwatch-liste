@@ -22,7 +22,7 @@ Ich freue mich über Hinweise, Tipps und Anregungen.
 
 
 
-### Hinweise 
+### Hinweise
 
 Falls verschiedene Modelle (Farben, Materialien, ...) einer Smartwatch verfügbar sein sollten, dient das eine Foto der Smartwatch nur der allgemeinen Veranschaulichung.
 
@@ -33,6 +33,9 @@ Smartwatches die es bei amazon.de zu kaufen gibt, verlinken über einen Affiliat
 
 
 ## Updates
+
+### 27.10.2010
+* Bei fast allen Uhren die Shop-Verlinkungen angepasst
 
 ### 03.03.2016
 * Preis Updates bei den Pebble Modellen

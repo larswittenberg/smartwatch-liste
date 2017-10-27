@@ -29,7 +29,4 @@ img_src_name: "Motorola"
 link_name: "motorola.de"
 link_url: "https://www.motorola.de/motomaker?pid=FLEXR3"
 
-preis: 144
-shop_link_name: "mediamarkt.de"
-shop_link_url: "http://www.mediamarkt.de/mcs/product/_MOTOROLA-Moto-360%E2%84%A2-Smart-Watch-hell-mit-Lederarmband,48353,1479037.html?langId=-3"
 ---

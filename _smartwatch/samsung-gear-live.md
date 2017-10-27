@@ -25,7 +25,5 @@ img_src_2x: "samsung-gear-live-820.jpg"
 img_src_url: "http://www.samsungmobilepress.com/2014/06/26/Gear-Live-Image"
 img_src_name: "Samsung"
 
-link_name: "store.google.com"
-link_url: "https://store.google.com/product/samsung_gear_live"
 
 ---

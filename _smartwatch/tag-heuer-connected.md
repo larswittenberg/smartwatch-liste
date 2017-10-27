@@ -33,9 +33,6 @@ img_src_name: "TAG Heuer"
 link_name: "tagheuerconnected.com"
 link_url: "http://www.tagheuerconnected.com/"
 
-preis: 1350
-shop_link_name: "tagheuerconnected.com"
-shop_link_url: "http://www.tagheuerconnected.com/product"
 ---
 
 ### Links

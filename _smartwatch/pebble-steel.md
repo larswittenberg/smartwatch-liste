@@ -32,7 +32,7 @@ img_src_name: "Pebble"
 link_name: "getpebble.com"
 link_url: "https://getpebble.com/pebble_steel"
 
-preis: 139.99
+preis: 99.99
 shop_link_name: "amazon.de"
-shop_link_url: "http://www.amazon.de/dp/B00IVX0XGO"
+shop_link_url: "http://amzn.to/2zWzezQ"
 ---

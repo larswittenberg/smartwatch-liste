@@ -35,9 +35,9 @@ img_src_name: "Samsung"
 link_name: "samsung.com/de"
 link_url: "http://www.samsung.com/de/galaxy/gear-s2/features/"
 
-preis: 379
+preis: 214.89
 shop_link_name: "amazon.de"
-shop_link_url: "http://www.amazon.de/dp/B014WGN4MI"
+shop_link_url: "http://amzn.to/2xuPJkW"
 ---
 
 Die Samsung Gear S2 gibt es auch in einer 3G Version.
