@@ -17,7 +17,3 @@ dist/css/**/*.map
 .DS_Store
 *Thumbs.db
 Thumbs.db
-
-
-
-version2/smartwatch-liste/node_modules/*
